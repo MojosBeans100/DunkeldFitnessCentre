@@ -1,0 +1,18 @@
+#nav-menu {
+    width: 90%;
+    margin: auto;
+    top: 20px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    /* color: #ffff; */ 
+}
+
+#nav-menu a {
+    text-decoration: none;
+}
