@@ -1,3 +1,27 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* CREDIT : https://cache.marriott.com/marriottassets/marriott/BJVLC/bjvlc-fitness-9619-hor-feat.jpg */
+#main-image {
+    
+    background-image: url('../images/main-image.jpg');
+    
+    min-height: 100vh;
+    width:100%;
+
+    margin: 0 auto;
+    padding: 0;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    opacity: 0.7;
+} 
+
+
 #nav-menu {
     width: 90%;
     margin: auto;
@@ -10,9 +34,18 @@
     font-size: 25px;
     display: flex;
     justify-content: space-between;
-    /* color: #ffff; */ 
+     
 }
 
 #nav-menu a {
     text-decoration: none;
+    color: #ffff; 
+}
+
+#main-image h1 {
+    font-size: 450%;
+    text-align: center;
+    line-height: 400px;
+    color: #eceaea;
+    letter-spacing: 5px;
 }
