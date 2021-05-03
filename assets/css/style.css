@@ -112,7 +112,7 @@ footer {
     
     /* min-height: 100vh; */
     width:100%;
-    height: 1000px;
+    height: 1100px;
     margin: 0 auto;
     padding: 0;
     
@@ -131,7 +131,8 @@ footer {
     width: 100%;
     justify-content: space-between;
     bottom: 0;
-    position: fixed;
+    margin-bottom: 0;
+    position: relative;
 
     letter-spacing: 1.5px;
     text-align: center;
@@ -145,7 +146,35 @@ footer {
     font-family: IBM Plex Sans, sans-serif; 
     text-align: center;
     font-size: 30px;
+    /* text-transform: uppercase; */
     padding-top: 100px;
     list-style-type: none;
     line-height: 40px;
+    color: rgb(56, 56, 56);
+}
+
+.tables{
+    font-family: IBM Plex Sans, sans-serif; 
+    font-size: 20px;
+    text-transform: uppercase;
+    color: grey;
+    width: 60%;
+    height: 200px;
+    border: solid black 1px;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.spacer-div{
+    height: 70px;   
+}
+
+
+#classes-link{
+    text-decoration: none;
+    color:rgb(26, 26, 26);
 }
