@@ -18,7 +18,7 @@ body {
     background-position: center;
     background-size: cover;
 
-    opacity: 0.7;
+    opacity: 0.9;
 
     animation-name: main-image-ani;
     animation-duration: 2s;
@@ -55,10 +55,20 @@ body {
     color: #ffff; 
 }
 
+#nav-menu a:hover {
+    text-decoration: none;
+    color: grey; 
+} 
+
 #main-image h1 {
     font-size: 450%;
     text-align: center;
     line-height: 400px;
     color: #eceaea;
     letter-spacing: 5px;
+}
+
+#yourehere {
+    color: grey;
+    font-size:28px;
 }
