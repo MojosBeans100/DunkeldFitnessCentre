@@ -23,20 +23,10 @@ body {
 
     opacity: 0.9;
 
-    animation-name: main-image-ani;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
 } 
 
 
-@keyframes main-image-ani {
-    from {
-        transform:scale(1.01);
-    }
-    to{
-        transform:scale(1);
-    }
-}
+
 
 #nav-menu {
     font-family: IBM Plex Sans, sans-serif;
@@ -54,9 +44,16 @@ body {
      
 }
 
+
+
 #nav-menu a {
     text-decoration: none;
     color: #ffff; 
+}
+
+#nav-menu #yourehere {
+    color: grey;
+    font-size:28px;
 }
 
 #nav-menu a:hover {
@@ -68,15 +65,13 @@ body {
     font-family: Roboto, sans-serif;
     font-size: 450%;
     text-align: center;
-    line-height: 370px;
+    padding-top: 200px;
+    margin: 0 auto;
     color: #eceaea;
     letter-spacing: 5px;
 }
 
-#yourehere {
-    color: grey;
-    font-size:28px;
-}
+
 
 footer {
     font-family: IBM Plex Sans, sans-serif;
@@ -110,4 +105,38 @@ footer {
 #right-footer-div{
     float: right;
     width: 33%;
+}
+
+#membership-image{
+    background-image: url('../images/membership.jpeg');
+    
+    min-height: 100vh;
+    width:100%;
+
+    margin: 0 auto;
+    padding: 0;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    opacity: 0.9;
+}
+
+#membership-footer {
+    font-family: IBM Plex Sans, sans-serif;
+    height: 100px;
+    background-color: rgb(41, 41, 43);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    bottom: 0;
+    position: absolute;
+
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 5px;
+    color: white;
 }
