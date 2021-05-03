@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Open+Sans&display=swap');
+
+
 body {
     margin: 0 auto;
     padding: 0;
@@ -28,7 +31,7 @@ body {
 
 @keyframes main-image-ani {
     from {
-        transform:scale(1.03);
+        transform:scale(1.01);
     }
     to{
         transform:scale(1);
@@ -36,6 +39,7 @@ body {
 }
 
 #nav-menu {
+    font-family: IBM Plex Sans, sans-serif;
     width: 90%;
     margin: auto;
     top: 20px;
@@ -61,9 +65,10 @@ body {
 } 
 
 #main-image h1 {
+    font-family: Roboto, sans-serif;
     font-size: 450%;
     text-align: center;
-    line-height: 400px;
+    line-height: 370px;
     color: #eceaea;
     letter-spacing: 5px;
 }
@@ -71,4 +76,38 @@ body {
 #yourehere {
     color: grey;
     font-size:28px;
+}
+
+footer {
+    font-family: IBM Plex Sans, sans-serif;
+    height: 100px;
+    background-color: rgb(46, 32, 24);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    bottom: 0;
+    position: absolute;
+
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 5px;
+    color: white;
+}
+
+#left-footer-div {
+    float: left;
+    width: 33%;
+    
+}
+
+#center-footer-div{
+    width: 33%;
+    margin: 0 auto;
+}
+
+#right-footer-div{
+    float: right;
+    width: 33%;
 }
