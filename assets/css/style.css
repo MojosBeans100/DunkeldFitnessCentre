@@ -19,8 +19,21 @@ body {
     background-size: cover;
 
     opacity: 0.7;
+
+    animation-name: main-image-ani;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 } 
 
+
+@keyframes main-image-ani {
+    from {
+        transform:scale(1.03);
+    }
+    to{
+        transform:scale(1);
+    }
+}
 
 #nav-menu {
     width: 90%;
