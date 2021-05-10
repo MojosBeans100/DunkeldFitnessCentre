@@ -38,7 +38,10 @@
         </nav>
 
     <div>
-        <h2>What our membership offers</h2>
+
+        <h2 id="membership-h2">What our membership offers</h2>
+
+
         <ul id="membership-offers">
             <li>
                     Unlimited use of the full gym suite
@@ -134,9 +137,66 @@
 
     </div>
 
+    <div class="spacer-div"></div>
+    
+    <div class="spacer-div-color">
+    <h2>Sign Up Below</h2>
+    </div>
+
+    <div class="spacer-div"></div>
+
+    <div id="form-div">
+    <form id="membership-form">
+
+        <label  for="title">Title:</label>
+                <select class="text-input" id="title" name="title">
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Miss">Miss</option>
+                <option value="Ms">Ms</option>
+                </select>
+
+        <br>
+
+        <input class="text-input" id="fname" name="first_name" type="text" placeholder="First Name" required>
+        
+        <br>
+
+        
+        <input class="text-input" id="lname" name="last_name" type="text" placeholder="Last Name" required>
+        
+        <br>
+
+        
+        <input class="text-input" type="email" id="email" name="email_address" placeholder="Email Address" required>
+
+        <br>
+
+        <label for="birthdate">Date of Birth</label>
+        <input class="text-input" type="date" id="birthdate" name="birthdate"> 
+        
+        <br>
+
+        <input type="radio" id="female" value="female" name="gender" required>
+        <label for="female">Female</label>
+
+        
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="male">Male</label>   
+
+          
+
+    </form>
+    </div>
+
+    </section>
+
+    
+        
+       
 
 
-
+    
 
     <footer id="membership-footer">
         
@@ -162,11 +222,6 @@
     
     
     </footer>
-
-
-    </section>
-
-
 
 </body>
 </html>
