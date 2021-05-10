@@ -251,3 +251,62 @@ h2 {
     width: 300px;
     
 }
+
+
+/*http://blog.drsquatch.com/wp-content/uploads/2015/05/gym_shower_et.jpg*/
+#facilities-image {
+    
+    background-image: url('../images/facilities.jpg');
+    
+    min-height: 2500px;
+    width:100%;
+
+    margin: 0 auto;
+    padding: 0;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    opacity: 0.9;
+
+} 
+
+#facilities-footer{
+    font-family: IBM Plex Sans, sans-serif;
+    height: 100px;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    bottom: 0;
+    margin-bottom: 0;
+    position: fixed;
+
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 5px;
+    color: white;   
+}
+
+
+
+/* #facilities-banner{
+    font-family: IBM Plex Sans, sans-serif;
+    width: 40%;
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+
+} */
+
+#membershipfirst {
+    border: 1px solid red;
+    top: 300px;
+    
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+}
