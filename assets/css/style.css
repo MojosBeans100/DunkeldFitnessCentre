@@ -304,9 +304,48 @@ h2 {
 
 #membershipfirst {
     border: 1px solid red;
+    background-color: white;
+    opacity: 0.8;
     top: 300px;
-    
+    position: relative;
     height: 450px;
     width: 80%;
     margin: 0 auto;
+}
+
+#membershipsecond {
+    border: 1px solid red;
+    background-color: white;
+    opacity: 0.8;
+    top: 400px;
+    position: relative;
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#weights{
+    width:50%;
+    height:100%;
+    float:left;
+}
+
+#cardio{
+    width:50%;
+    height:100%;
+    float:right;
+}
+
+#right-text{
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+#left-text{
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    list-style-type: none;
 }
