@@ -469,7 +469,7 @@ hr {
     width: 80%;
 }
 
-#social-media{
+.social-media{
     height: 100px;
     width: 80%;
     display: flex;
@@ -493,4 +493,36 @@ a {
 .sm:hover {
     color:rgb(26, 26, 26);
     font-size: 42px;
+}
+
+
+#contact-div{
+    width: 95%;
+    display: flex;
+    margin: auto 0;
+    left: 30px;
+    position: relative;
+    /* border: turquoise solid 1px; */
+}
+
+#contact-left{
+    /* border: solid red; */
+    width: 49%;
+    float: left;
+    height: 250px;
+}
+
+#contact-right {
+    /* border: solid green; */
+    width: 49%;
+    float: right;
+    height: 250px;
+   
+}
+
+h4 {
+    font-size: 14px;
+    font-family: IBM Plex Sans, sans-serif;
+    color: black;
+    text-align:center;
 }
