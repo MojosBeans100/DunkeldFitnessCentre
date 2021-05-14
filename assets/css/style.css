@@ -391,14 +391,16 @@ h2 {
     background-color: white;
     top: 150px;
     position: relative;
-    column-count: 2;
+    display: flex;
 }
 
 #map{
-    right: 0;
-    position: absolute;
-    margin-top: 20px;
-    margin-right: 50px;  
+    /* right: 0;
+    position: absolute; */
+    /* margin-top: 20px; */
+    /* margin-right: 50px;   */
+    border: solid blue;
+    width: 50%;
 }
 
 div h1 {
@@ -410,3 +412,13 @@ div h1 {
     text-transform: uppercase;
 }
 
+#telephone-email{
+    border: solid red;
+    width: 50%;
+    
+}
+
+div h2 {font-size: 30px;
+    font-family: IBM Plex Sans, sans-serif;
+    color: black;
+    margin: 0 auto;}
