@@ -39,11 +39,13 @@
         </nav>
 
     <div>
+        
+        <div class="spacer-div"></div>
 
-        <h2 id="membership-h2">What our membership offers</h2>
+        <h2 class="membership-h2">What our membership offers</h2>
 
 
-        <ul id="membership-offers">
+        <ul class="membership-offers">
             <li>
                     Unlimited use of the full gym suite
             </li>
@@ -61,12 +63,18 @@
             </li>
 
         </ul>
+
+        <h2 class="membership-h2">Prices</h2>
+        <br>
+        <h3 class=membership-offers>Adult :  £16 per month / £170 per year</h3>
+        <h3 class=membership-offers>Students :  £11 per month / £120 per year</h3>
+
+        
+        <h2>*No joining fees*</h2>
+
     </div>
 
-
-    <div class="spacer-div"></div>
-
-    <div>
+    <!-- <div>
         <table class="tables">
       
             <th>Category</th>
@@ -105,13 +113,8 @@
         </table>
 
           
-    </div>
-
-    <div class="spacer-div"></div>
-
-
-
-    <div>
+    </div> -->
+    <!-- <div>
     <table class="tables">
 
         <th>Category</th>
@@ -136,45 +139,54 @@
     
       </table>
 
-    </div>
+    </div> -->
 
     <div class="spacer-div"></div>
     
-    <div class="spacer-div-color">
+    <!-- <div class="spacer-div-color">
     <h2>Sign Up Below</h2>
-    </div>
+    </div> -->
 
-    <div class="spacer-div"></div>
+</section>
 
+
+    <section id="second-membership-section">
     <div id="form-div">
     <form id="membership-form">
 
-        <h2 id="form-h2">Membership Sign-up Form</h2>
+        <h2 id="form-h2">Sign Up</h2>
+        <h4>It's fast and free!</h4>
 
-        <label  for="title">Title:</label>
-                <select class="text-input" id="title" name="title">
-                <option value="Mr">Mr</option>
-                <option value="Mrs">Mrs</option>
-                <option value="Miss">Miss</option>
-                <option value="Ms">Ms</option>
-                </select>
+        <div id="narrow-div">
 
         <br>
-
-        
-        <input class="text-input" id="fname" name="first_name" type="text" placeholder="First Name" required>
-        
+        <br>
+                
+        <label>Title</label>
+        <select class="text-input" id="title" name="title">
+            <option value="Mr">Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Miss">Miss</option>
+            <option value="Ms">Ms</option>
+        </select>
 
         <br>
-
-        
-        <input class="text-input" id="lname" name="last_name" type="text" placeholder="Last Name" required>
-        
-
         <br>
 
+        <label>First Name</label>
+        <input class="text-input" id="fname" name="first_name" type="text"required>
         
-        <input class="text-input" type="email" id="email" name="email_address" placeholder="Email Address" required>
+        <br>
+        <br>
+
+        <label>Last Name</label>
+        <input class="text-input" id="lname" name="last_name" type="text" required>
+        
+        <br>
+        <br>
+
+        <label>Email Address</label>
+        <input class="text-input" type="email" id="email" name="email_address" required>
 
         <br>
 
@@ -190,14 +202,14 @@
         <input type="radio" id="male" value="male" name="gender">
         <label for="male">Male</label>   
 
-          
+        </div> 
 
     </form>
     </div>
 
     </section>
 
-    
+
         
        
 

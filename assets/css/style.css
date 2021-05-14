@@ -130,8 +130,8 @@ footer {
 #membership-image{
     background-image: url('../images/membership.jpeg');
     /* min-height: 100vh; */
-    width:100%;
-    min-height: 150vh;
+    width:100vw;
+    height: 100vh;
     margin: 0 auto;
     padding: 0;
     
@@ -142,7 +142,9 @@ footer {
     opacity: 0.9;
 }
 
-#membership-h2 {
+
+
+.membership-h2 {
     padding-top: 100px;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -155,7 +157,7 @@ footer {
 
 
 
-#membership-offers{
+.membership-offers{
     font-family: IBM Plex Sans, sans-serif; 
     text-align: center;
     font-size: 30px;
@@ -163,6 +165,13 @@ footer {
     list-style-type: none;
     line-height: 40px;
     color: rgb(56, 56, 56);
+}
+
+#second-membership-section{
+    height: 600px;
+    width: 100%;
+    background-color:rgb(158, 158, 158); 
+    opacity: 0.5;
 }
 
 .tables{
@@ -194,24 +203,32 @@ footer {
 #form-div{
     width: 65%;
     height: 600px;
-    background-color: white;
+    /* background-color: white; */
     margin: 0 auto;
     padding-top: 30px;
+    border: red solid;
 }
 
 #membership-form{
     font-family: IBM Plex Sans, sans-serif; 
     font-size: 20px;
-    
-    height: 600px;
     margin: 0 auto;
     width: 60%;
-    background-color:none;
+    background-color:white;
     color: grey;
-    line-height: 60px;
+    /* line-height: 60px; */
     border: solid black 1px;
 }
 
+#narrow-div{
+    width: 60%;
+    margin: auto;
+    border: solid green;
+}
+
+label {
+    font-size: 12px;
+}
 
 .membership-footer {
     font-family: IBM Plex Sans, sans-serif;
@@ -236,6 +253,8 @@ footer {
     height: 100px;  
     background-color:rgb(65, 70, 94); 
     opacity: 0.5;
+    top: 0;
+    position:relative;
 }
 
 h2 {
@@ -255,8 +274,9 @@ h2 {
 
 .text-input {
     height: 40px;
-    width: 60%;
-    
+    width: 98%;
+    margin: auto;
+       
 }
 
 
