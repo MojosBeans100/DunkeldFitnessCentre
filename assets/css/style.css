@@ -36,7 +36,7 @@ body {
     width: 90%;
     margin: auto;
     top: 20px;
-    position: fixed;
+    position: absolute;
     text-align: center;
     text-transform: uppercase;
     list-style-type: none;
@@ -202,12 +202,14 @@ footer {
 #membership-form{
     font-family: IBM Plex Sans, sans-serif; 
     font-size: 20px;
-    height: 400px;
+    
+    height: 600px;
     margin: 0 auto;
     width: 60%;
     background-color:none;
     color: grey;
-    line-height: 50px;
+    line-height: 60px;
+    border: solid black 1px;
 }
 
 
@@ -246,12 +248,20 @@ h2 {
 
 }
 
+#form-h2{
+    color:rgb(56, 56, 56);
+    font-size: 30px;
+}
+
 .text-input {
-    height: 35px;
-    width: 300px;
+    height: 40px;
+    width: 60%;
     
 }
 
+
+
+ /* - FACILITIES STYLE - /*
 
 /*http://blog.drsquatch.com/wp-content/uploads/2015/05/gym_shower_et.jpg*/
 #facilities-image {
@@ -302,7 +312,7 @@ h2 {
 
 } */
 
-#membershipfirst {
+#facilitiesfirst {
     border: 1px solid red;
     background-color: white;
     opacity: 0.8;
@@ -313,7 +323,7 @@ h2 {
     margin: 0 auto;
 }
 
-#membershipsecond {
+#facilitiessecond {
     border: 1px solid red;
     background-color: white;
     opacity: 0.8;
@@ -349,3 +359,54 @@ h2 {
     line-height: 40px;
     list-style-type: none;
 }
+ 
+
+/* CONTACT PAGE  */
+
+/* CREDIT : https://cache.marriott.com/marriottassets/marriott/BJVLC/bjvlc-fitness-9619-hor-feat.jpg */
+#contact-image {
+    
+    background-image: url('../images/contactbackground.jpg');
+    
+    min-height: 100vh;
+    width:100%;
+
+    margin: 0 auto;
+    padding: 0;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    opacity: 0.9;
+
+} 
+
+
+#contact-info{
+    height: 600px;
+    width: 70%;
+    margin: 0 auto;
+    border: solid 1px black;
+    background-color: white;
+    top: 150px;
+    position: relative;
+    column-count: 2;
+}
+
+#map{
+    right: 0;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 50px;  
+}
+
+div h1 {
+    font-family: IBM Plex Sans, sans-serif; 
+    color: black;
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
