@@ -213,7 +213,7 @@ footer {
 }
 
 
-#membership-footer {
+.membership-footer {
     font-family: IBM Plex Sans, sans-serif;
     height: 100px;
     background-color: rgb(41, 41, 43);
@@ -222,7 +222,7 @@ footer {
     justify-content: space-between;
     bottom: 0;
     margin-bottom: 0;
-    position: relative;
+    position: fixed;
 
     letter-spacing: 1.5px;
     text-align: center;
@@ -382,6 +382,37 @@ h2 {
 
 } 
 
+#contact-nav-menu {
+    font-family: IBM Plex Sans, sans-serif;
+    width: 90%;
+    margin: auto;
+    top: 20px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+     
+}
+
+#contact-nav-menu a {
+    text-decoration: none;
+    color:rgb(65, 70, 94); 
+}
+
+#contact-nav-menu #yourehere {
+    color:seashell;
+    font-size:28px;
+}
+
+#contact-nav-menu a:hover {
+    text-decoration: none;
+    color: grey; 
+} 
+
 
 #contact-info{
     height: 600px;
@@ -395,12 +426,10 @@ h2 {
 }
 
 #map{
-    /* right: 0;
-    position: absolute; */
-    /* margin-top: 20px; */
-    /* margin-right: 50px;   */
-    border: solid blue;
+    
     width: 50%;
+    left: 20px;
+    position: relative;
 }
 
 div h1 {
@@ -413,12 +442,55 @@ div h1 {
 }
 
 #telephone-email{
-    border: solid red;
+    
     width: 50%;
     
 }
 
-div h2 {font-size: 30px;
+
+div h2 {
+    font-size: 22px;
     font-family: IBM Plex Sans, sans-serif;
     color: black;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 19px;
+    font-family: IBM Plex Sans, sans-serif;
+    color: black;
+    text-align: center;
+    /* margin: 0 auto;
+    left: 80px;
+    position: relative; */
+}
+
+hr {
+    width: 80%;
+}
+
+#social-media{
+    height: 100px;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.sm {
+    width: 33%;
+    margin: auto 0;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.sm:hover {
+    color:rgb(26, 26, 26);
+    font-size: 42px;
+}
