@@ -160,6 +160,7 @@ footer {
 .membership-offers{
     font-family: IBM Plex Sans, sans-serif; 
     text-align: center;
+    
     font-size: 30px;
     /* text-transform: uppercase; */
     list-style-type: none;
@@ -168,7 +169,7 @@ footer {
 }
 
 #second-membership-section{
-    height: 600px;
+    height: 1000px;
     width: 100%;
     background-color:rgb(158, 158, 158); 
     opacity: 0.5;
@@ -202,7 +203,7 @@ footer {
 
 #form-div{
     width: 65%;
-    height: 600px;
+    height: 900px;
     /* background-color: white; */
     margin: 0 auto;
     padding-top: 30px;
@@ -213,21 +214,26 @@ footer {
     font-family: IBM Plex Sans, sans-serif; 
     font-size: 20px;
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
     background-color:white;
     color: grey;
     /* line-height: 60px; */
     border: solid black 1px;
+
 }
 
 #narrow-div{
-    width: 60%;
+    width: 70%;
     margin: auto;
     border: solid green;
 }
 
 label {
     font-size: 12px;
+}
+
+p {
+    font-size: 15px;
 }
 
 .membership-footer {
@@ -275,8 +281,24 @@ h2 {
 .text-input {
     height: 40px;
     width: 98%;
+    margin: auto;      
+}
+
+input[type=submit]{
+    width: 50%;
+    height: 40px;
     margin: auto;
-       
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#female #male {
+    margin: auto;
+}
+
+span {
+    color: green;
 }
 
 
@@ -286,9 +308,9 @@ h2 {
 /*http://blog.drsquatch.com/wp-content/uploads/2015/05/gym_shower_et.jpg*/
 #facilities-image {
     
-    background-image: url('../images/facilities.jpg');
+    background-image: url('../images/facilities.jpeg');
     
-    min-height: 2500px;
+    min-height: 3200px;
     width:100%;
 
     margin: 0 auto;
@@ -298,14 +320,14 @@ h2 {
     background-position: center;
     background-size: cover;
 
-    opacity: 0.9;
+    /* opacity: 0.7; */
 
 } 
 
 #facilities-footer{
     font-family: IBM Plex Sans, sans-serif;
     height: 100px;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(34, 71, 27);
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -322,62 +344,91 @@ h2 {
 }
 
 
-
-/* #facilities-banner{
-    font-family: IBM Plex Sans, sans-serif;
-    width: 40%;
-    color: white;
-    font-size: 30px;
-    margin: 0 auto;
-
-} */
-
 #facilitiesfirst {
-    border: 1px solid red;
+    border: 4px solid white;
     background-color: white;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     top: 300px;
+    
     position: relative;
     height: 450px;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 #facilitiessecond {
-    border: 1px solid red;
+    border: 4px solid white;
     background-color: white;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     top: 400px;
+    
     position: relative;
     height: 450px;
     width: 80%;
     margin: 0 auto;
 }
 
-#weights{
+#facilitiesthird {
+    border: 4px solid white;
+    background-color: white;
+    /* opacity: 0.8; */
+    top: 500px;
+    position: relative;
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#facilitiesfourth {
+    border: 4px solid white;
+    background-color: white;
+    /* opacity: 0.8; */
+    top: 600px;
+    position: relative;
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#facilitiesfifth {
+    border: 4px solid white;
+    background-color: white;
+    /* opacity: 0.8; */
+    top: 700px;
+    position: relative;
+    height: 450px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.weights{
     width:50%;
     height:100%;
     float:left;
 }
 
-#cardio{
+.cardio{
     width:50%;
     height:100%;
     float:right;
 }
 
-#right-text{
+
+
+.right-text{
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 40px;
     list-style-type: none;
+    font-family: IBM Plex Sans, sans-serif;
 }
 
-#left-text{
+.left-text{
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 40px;
     list-style-type: none;
+    font-family: IBM Plex Sans, sans-serif;
 }
  
 
@@ -546,3 +597,6 @@ h4 {
     color: black;
     text-align:center;
 }
+
+/* CLASSES */
+
