@@ -74,7 +74,7 @@ body {
     letter-spacing: 5px;
 }
 
-#why-join-us{
+/* #why-join-us{
     font-family: Roboto, sans-serif;
     background-color: rgb(94, 89, 89);
     opacity: 0.6;
@@ -86,7 +86,7 @@ body {
     font-size: 30px;
     letter-spacing: 1.5px;
       
-}
+} */
 
 #join-list {
     list-style-type: none;
@@ -600,3 +600,64 @@ h4 {
 
 /* CLASSES */
 
+#classes-image{
+    background-image: url('../images/classes.jpeg');
+    
+    min-height: 300vh;
+    width:100%;
+
+    margin: 0 auto;
+    padding: 0;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+
+#gallery {
+    top: 400px;
+    position: relative;
+    background-color: white;
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    width: 85%;
+    margin: auto;
+}
+
+#gallery > img {
+    width: 93%;
+    padding: 15px;
+       
+}
+
+.classes-footer {
+    font-family: IBM Plex Sans, sans-serif;
+    height: 100px;
+    background-color: rgb(77, 31, 31);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    bottom: 0;
+    margin-bottom: 0;
+    position: fixed;
+
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 5px;
+    color: white;
+}
+
+.timetable{
+    width: 45%;
+    height: 250px;
+    margin: auto;
+    line-height: 30px;
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+}
