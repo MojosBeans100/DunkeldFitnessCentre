@@ -41,20 +41,27 @@ footer.membership-footer {
 }
 
 
-#left-footer-div {
+.footer-1{
     float: left;
-    width: 33%;  
+    width: 25%; 
 }
 
-#center-footer-div{
-    width: 33%;
+.footer-2{
+    width: 25%;
     margin: 0 auto;
 }
 
-#right-footer-div{
+.footer-3{
     float: right;
-    width: 33%;
+    width: 25%;
 }
+
+.footer-4{
+    float: right;
+    width: 25%;
+}
+
+
 
 /* CREDIT : https://cache.marriott.com/marriottassets/marriott/BJVLC/bjvlc-fitness-9619-hor-feat.jpg */
 .main-image {
@@ -133,6 +140,11 @@ footer.membership-footer {
     margin: 0 auto;
     color: #eceaea;
     letter-spacing: 5px;
+}
+
+
+#h2-logo {
+    color: #eceaea;
 }
 
 
