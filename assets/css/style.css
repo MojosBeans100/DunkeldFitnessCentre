@@ -291,7 +291,7 @@ footer.membership-footer {
     font-family: IBM Plex Sans, sans-serif; 
     font-size: 20px;
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
     background-color:white;
     color: grey;
     /* line-height: 60px; */
@@ -371,7 +371,9 @@ span {
     margin: 0 auto; 
 }
 
-
+.facilities-divs h2{
+    font-size: 2vw;
+}
 
 #facilitiesfirst {
     top: 300px;
@@ -409,6 +411,8 @@ span {
 
 
 .right-text{
+    top: 20%;
+    position: relative;
     text-align: center;
     font-size: 22px;
     line-height: 40px;
@@ -417,6 +421,8 @@ span {
 }
 
 .left-text{
+    top: 20%;
+    position: relative;
     text-align: center;
     font-size: 22px;
     line-height: 40px;
@@ -507,7 +513,7 @@ div h1 {
 
 
 div h2 {
-    font-size: 22px;
+    font-size: 1vw;
     font-family: IBM Plex Sans, sans-serif;
     color: black;
     margin: 0 auto;
@@ -566,14 +572,15 @@ a {
     /* border: solid red; */
     width: 49%;
     float: left;
-    height: 250px;
+    height: 80%;
 }
 
 #contact-right {
     /* border: solid green; */
     width: 49%;
     float: right;
-    height: 250px;  
+    height: 80%; 
+    
 }
 
 h4 {
@@ -616,6 +623,7 @@ h4 {
     font-size: 20px;
     letter-spacing: 1px;
     
+    
 }
 
 
@@ -625,19 +633,16 @@ h4 {
 
 
 .activity{
-    left: 75px;
-    position: relative;
+   text-align: center;
 }
 
-.time{
-    left: 95px;
-    position: relative;
+ .time{
+    text-align: center;
 }
 
 .participants{
-    left: 100px;
-    position: relative;
-}
+    text-align: center;
+} 
 
 /*   MEDIA QUERIES   */
 
@@ -696,11 +701,137 @@ h4 {
           width:23%;
       } 
 
-      
+     
+
 }
 
 
 
 
 @media screen and (max-width: 1200px) {
+
+    
+
+
+    #contact-info{
+         width: 85%;
+    }
+
+
+    #membership-form{
+        
+        width: 80%;
+    }
+
+    .nav-menu a{
+       font-size: 20px; 
+    }
+
+    .nav-menu #yourehere {
+        font-size: 20px; 
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    li {
+        font-size: 25px;
+    }
+
+
+    .left-text li{
+        font-size: 18px;
+    }
+
+    .right-text li{
+        font-size: 18px;
+    }
+
+    #facilitiesfirst {
+        top: 100px;
+    }
+    
+    #facilitiessecond {
+        top: 200px;
+    }
+    
+    #facilitiesthird {
+        top: 300px; 
+    }
+    
+    #facilitiesfourth {
+        top: 400px;
+    }
+    
+    #facilitiesfifth {
+        top: 500px;
+    }
+    
+    p {
+        top: 15px;
+        position: relative;
+    }
+
+    .timetable {
+        font-size: 17px; 
+        width: 60%;
+    }
+    
+
+}
+
+@media screen and (max-width: 1050px) {
+    #index-div {
+        width: 50%;
+    }
+
+    #index-image h1 {
+        font-size: 380%;  
+    }
+}
+
+
+@media screen and (max-width: 920px) {
+    p {
+        font-size: 10px;
+        top: 20px;
+        position: relative;
+    }
+
+    #index-div {
+        width:55%;
+    }
+
+    .facilities-divs{
+        height: 350px;
+    }
+
+    .timetable{
+        width: 65%;
+        font-size: 14px;
+    }
+
+    .spacer-div{
+        height: 40px;
+    }
+
+    .membership-h2{
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width: 420px) {
+    
+    .nav-menu {
+     display:block;
+    }
+
+    footer {
+        height: 300px;
+        display: block;
+    }
+
+
 }
