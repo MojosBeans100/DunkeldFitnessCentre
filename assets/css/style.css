@@ -6,32 +6,94 @@ body {
     padding: 0;
 }
 
+footer {
+    font-family: IBM Plex Sans, sans-serif;
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    bottom: 0;
+    position: fixed;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 5px;
+    color: white;
+}
+
+footer#index-footer {
+    background-color: rgb(46, 32, 24); 
+}
+
+footer#facilities-footer {
+    background-color: rgb(34, 71, 27);
+}
 
 
+footer#classes-footer{
+    background-color: rgb(77, 31, 31);
+  }
+
+/*  classes-footer called up in About Us  */
+footer.membership-footer {
+    background-color: rgb(41, 41, 43);
+}
+
+
+#left-footer-div {
+    float: left;
+    width: 33%;  
+}
+
+#center-footer-div{
+    width: 33%;
+    margin: 0 auto;
+}
+
+#right-footer-div{
+    float: right;
+    width: 33%;
+}
 
 /* CREDIT : https://cache.marriott.com/marriottassets/marriott/BJVLC/bjvlc-fitness-9619-hor-feat.jpg */
-#main-image {
-    
-    background-image: url('../images/main-image.jpg');
-    
-    min-height: 100vh;
+.main-image {
     width:100%;
-
     margin: 0 auto;
     padding: 0;
-    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
     opacity: 0.9;
-
 } 
 
+.main-image#index-image{
+    background-image: url('../images/main-image.jpg');
+    min-height: 100vh;
+}
+
+.main-image#facilities-image{
+    background-image: url('../images/facilities.jpeg');
+    min-height: 3200px;
+}
+
+.main-image#classes-image{
+    background-image: url('../images/classes.jpg');
+    min-height: 300vh;
+}
+
+.main-image#membership-image{
+    background-image: url('../images/membership.jpeg');
+    height: 100vh;
+}
+
+.main-image#contact-image{
+    background-image: url('../images/contactbackground.jpg');
+    min-height: 100vh;
+}
 
 
-
-#nav-menu {
+.nav-menu {
     font-family: IBM Plex Sans, sans-serif;
     width: 90%;
     margin: auto;
@@ -48,23 +110,22 @@ body {
 }
 
 
-
-#nav-menu a {
+.nav-menu a {
     text-decoration: none;
     color: #ffff; 
 }
 
-#nav-menu #yourehere {
+.nav-menu #yourehere {
     color: grey;
     font-size:28px;
 }
 
-#nav-menu a:hover {
+.nav-menu a:hover {
     text-decoration: none;
     color: grey; 
 } 
 
-#main-image h1 {
+#index-image h1 {
     font-family: Roboto, sans-serif;
     font-size: 450%;
     text-align: center;
@@ -73,75 +134,6 @@ body {
     color: #eceaea;
     letter-spacing: 5px;
 }
-
-/* #why-join-us{
-    font-family: Roboto, sans-serif;
-    background-color: rgb(94, 89, 89);
-    opacity: 0.6;
-    width: 45%;
-    height: 300px;
-    margin: 0 auto;
-    color:rgb(236, 236, 236);
-    text-transform: uppercase;
-    font-size: 30px;
-    letter-spacing: 1.5px;
-      
-} */
-
-#join-list {
-    list-style-type: none;
-}
-
-
-footer {
-    font-family: IBM Plex Sans, sans-serif;
-    height: 100px;
-    background-color: rgb(46, 32, 24);
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    bottom: 0;
-    position: absolute;
-
-    letter-spacing: 1.5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 15px;
-    line-height: 5px;
-    color: white;
-}
-
-#left-footer-div {
-    float: left;
-    width: 33%;
-    
-}
-
-#center-footer-div{
-    width: 33%;
-    margin: 0 auto;
-}
-
-#right-footer-div{
-    float: right;
-    width: 33%;
-}
-
-#membership-image{
-    background-image: url('../images/membership.jpeg');
-    /* min-height: 100vh; */
-    width:100vw;
-    height: 100vh;
-    margin: 0 auto;
-    padding: 0;
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    opacity: 0.9;
-}
-
 
 
 .membership-h2 {
@@ -236,24 +228,6 @@ p {
     font-size: 15px;
 }
 
-.membership-footer {
-    font-family: IBM Plex Sans, sans-serif;
-    height: 100px;
-    background-color: rgb(41, 41, 43);
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    bottom: 0;
-    margin-bottom: 0;
-    position: fixed;
-
-    letter-spacing: 1.5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 15px;
-    line-height: 5px;
-    color: white;
-}
 
 .spacer-div-color{
     height: 100px;  
@@ -303,111 +277,45 @@ span {
 
 
 
- /* - FACILITIES STYLE - /*
-
-/*http://blog.drsquatch.com/wp-content/uploads/2015/05/gym_shower_et.jpg*/
-#facilities-image {
-    
-    background-image: url('../images/facilities.jpeg');
-    
-    min-height: 3200px;
-    width:100%;
-
-    margin: 0 auto;
-    padding: 0;
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    /* opacity: 0.7; */
-
-} 
-
-#facilities-footer{
-    font-family: IBM Plex Sans, sans-serif;
-    height: 100px;
-    background-color: rgb(34, 71, 27);
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    bottom: 0;
-    margin-bottom: 0;
-    position: fixed;
-
-    letter-spacing: 1.5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 15px;
-    line-height: 5px;
-    color: white;   
-}
-
-
-#facilitiesfirst {
+.facilities-divs{
     border: 4px solid white;
     background-color: white;
-    /* opacity: 0.8; */
-    top: 300px;
-    
     position: relative;
     height: 450px;
     width: 80%;
     margin: 0 auto; 
 }
 
+
+
+#facilitiesfirst {
+    top: 300px;
+}
+
 #facilitiessecond {
-    border: 4px solid white;
-    background-color: white;
-    /* opacity: 0.8; */
     top: 400px;
-    
-    position: relative;
-    height: 450px;
-    width: 80%;
-    margin: 0 auto;
 }
 
 #facilitiesthird {
-    border: 4px solid white;
-    background-color: white;
-    /* opacity: 0.8; */
-    top: 500px;
-    position: relative;
-    height: 450px;
-    width: 80%;
-    margin: 0 auto;
+    top: 500px; 
 }
 
 #facilitiesfourth {
-    border: 4px solid white;
-    background-color: white;
-    /* opacity: 0.8; */
     top: 600px;
-    position: relative;
-    height: 450px;
-    width: 80%;
-    margin: 0 auto;
 }
 
 #facilitiesfifth {
-    border: 4px solid white;
-    background-color: white;
-    /* opacity: 0.8; */
     top: 700px;
-    position: relative;
-    height: 450px;
-    width: 80%;
-    margin: 0 auto;
 }
 
-.weights{
+
+.leftpic{
     width:50%;
     height:100%;
     float:left;
 }
 
-.cardio{
+.rightpic{
     width:50%;
     height:100%;
     float:right;
@@ -435,23 +343,7 @@ span {
 /* CONTACT PAGE  */
 
 /* CREDIT : https://cache.marriott.com/marriottassets/marriott/BJVLC/bjvlc-fitness-9619-hor-feat.jpg */
-#contact-image {
-    
-    background-image: url('../images/contactbackground.jpg');
-    
-    min-height: 100vh;
-    width:100%;
 
-    margin: 0 auto;
-    padding: 0;
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-    opacity: 0.9;
-
-} 
 
 #contact-nav-menu {
     font-family: IBM Plex Sans, sans-serif;
@@ -497,7 +389,6 @@ span {
 }
 
 #map{
-    
     width: 50%;
     left: 20px;
     position: relative;
@@ -513,9 +404,7 @@ div h1 {
 }
 
 #telephone-email{
-    
-    width: 50%;
-    
+    width: 50%;   
 }
 
 
@@ -552,8 +441,7 @@ hr {
     margin: auto 0;
     text-align: center;
     font-size: 40px;
-    color: black;
-    
+    color: black; 
 }
 
 a {
@@ -587,8 +475,7 @@ a {
     /* border: solid green; */
     width: 49%;
     float: right;
-    height: 250px;
-   
+    height: 250px;  
 }
 
 h4 {
@@ -600,22 +487,10 @@ h4 {
 
 /* CLASSES */
 
-#classes-image{
-    background-image: url('../images/classes.jpeg');
-    
-    min-height: 300vh;
-    width:100%;
 
-    margin: 0 auto;
-    padding: 0;
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;  
-}
 
 #gallery {
-    top: 400px;
+    top: 80px;
     position: relative;
     background-color: white;
     clear: both;
@@ -632,32 +507,36 @@ h4 {
        
 }
 
-.classes-footer {
-    font-family: IBM Plex Sans, sans-serif;
-    height: 100px;
-    background-color: rgb(77, 31, 31);
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    bottom: 0;
-    margin-bottom: 0;
-    position: fixed;
 
-    letter-spacing: 1.5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 15px;
-    line-height: 5px;
-    color: white;
-}
 
 .timetable{
-    width: 45%;
+    width: 52%;
     height: 250px;
     margin: auto;
     line-height: 30px;
     font-family: IBM Plex Sans, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 1px;
     
+}
+
+
+.blank-row{
+    height: 20px;
+}
+
+
+.activity{
+    left: 75px;
+    position: relative;
+}
+
+.time{
+    left: 95px;
+    position: relative;
+}
+
+.participants{
+    left: 100px;
+    position: relative;
 }
