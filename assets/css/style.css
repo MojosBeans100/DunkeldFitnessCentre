@@ -148,6 +148,69 @@ footer.membership-footer {
 }
 
 
+#index-div{
+    width: 30%;
+    height: 40%;
+    background-color: rgba(43, 9, 9, 0.6);
+    margin: auto;
+    display: flex;
+    
+    /* animation-name: fade-in-text;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; */
+}
+
+#left-index-div{
+    float: left;
+    width: 80%;
+}
+
+#right-index-div{
+    float: right;
+    width: 20%;
+}
+  
+
+
+#first-fade {
+    animation-name: fade-in-text;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+#second-fade {
+    animation-name: fade-in-text;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+#third-fade {
+    animation-name: fade-in-text;
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+#fourth-fade {
+    animation-name: fade-in-text;
+    animation-delay: 7s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes fade-in-text {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 .membership-h2 {
     padding-top: 100px;
     letter-spacing: 3px;
@@ -161,15 +224,25 @@ footer.membership-footer {
 
 
 
-.membership-offers{
+.list{
     font-family: IBM Plex Sans, sans-serif; 
     text-align: center;
-    
     font-size: 30px;
     /* text-transform: uppercase; */
     list-style-type: none;
     line-height: 40px;
+    color: rgb(56, 56, 56);  
+}
+
+#membership-list {
     color: rgb(56, 56, 56);
+    text-align: center;
+}
+
+
+#index-list {
+    text-align: left; 
+   color: white;   
 }
 
 #second-membership-section{
