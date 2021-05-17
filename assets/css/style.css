@@ -154,10 +154,12 @@ footer.membership-footer {
     background-color: rgba(43, 9, 9, 0.6);
     margin: auto;
     display: flex;
-    
-    /* animation-name: fade-in-text;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; */
+}
+
+
+#index-list {
+    text-align: left; 
+   color: white;   
 }
 
 #left-index-div{
@@ -170,7 +172,7 @@ footer.membership-footer {
     width: 20%;
 }
   
-
+/*     FRONT PAGE ANIMATION      */
 
 #first-fade {
     animation-name: fade-in-text;
@@ -210,6 +212,10 @@ footer.membership-footer {
     }
 }
 
+/*--------------------------------------*/
+
+
+/*   MEMBERSHIP STYLE    */
 
 .membership-h2 {
     padding-top: 100px;
@@ -223,12 +229,10 @@ footer.membership-footer {
 }
 
 
-
 .list{
     font-family: IBM Plex Sans, sans-serif; 
     text-align: center;
     font-size: 30px;
-    /* text-transform: uppercase; */
     list-style-type: none;
     line-height: 40px;
     color: rgb(56, 56, 56);  
@@ -240,17 +244,15 @@ footer.membership-footer {
 }
 
 
-#index-list {
-    text-align: left; 
-   color: white;   
-}
-
 #second-membership-section{
     height: 1000px;
     width: 100%;
     background-color:rgb(158, 158, 158); 
     opacity: 0.5;
 }
+
+
+/*        CLASSES           */
 
 .tables{
     font-family: IBM Plex Sans, sans-serif; 
@@ -284,7 +286,7 @@ footer.membership-footer {
     /* background-color: white; */
     margin: 0 auto;
     padding-top: 30px;
-    border: red solid;
+    
 }
 
 #membership-form{
@@ -293,7 +295,7 @@ footer.membership-footer {
     margin: 0 auto;
     width: 70%;
     background-color:white;
-    color: grey;
+    color: rgb(58, 57, 57);
     /* line-height: 60px; */
     border: solid black 1px;
 
@@ -302,11 +304,11 @@ footer.membership-footer {
 #narrow-div{
     width: 70%;
     margin: auto;
-    border: solid green;
+    
 }
 
 label {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 p {
@@ -343,7 +345,7 @@ h2 {
     margin: auto;      
 }
 
-input[type=submit]{
+#signup{
     width: 50%;
     height: 40px;
     margin: auto;
@@ -362,6 +364,8 @@ span {
 
 
 
+/*       FACILITIES            */
+
 .facilities-divs{
     border: 4px solid white;
     background-color: white;
@@ -369,6 +373,7 @@ span {
     height: 450px;
     width: 80%;
     margin: 0 auto; 
+    
 }
 
 .facilities-divs h2{
@@ -376,7 +381,8 @@ span {
 }
 
 #facilitiesfirst {
-    top: 300px;
+   top: 300px;
+    
 }
 
 #facilitiessecond {
@@ -483,7 +489,7 @@ span {
     width: 50%;
     position: relative;
     float: right;
-    border: solid green;
+    
 }
 
 #google-map{
@@ -508,12 +514,12 @@ div h1 {
 #telephone-email{
     width: 50%;   
     float: left;
-    border: crimson solid;
+    
 }
 
 
 div h2 {
-    font-size: 1vw;
+    font-size: 1.3vw;
     font-family: IBM Plex Sans, sans-serif;
     color: black;
     margin: 0 auto;
@@ -570,14 +576,14 @@ a {
 
 #contact-left{
     /* border: solid red; */
-    width: 49%;
+    width: 45%;
     float: left;
     height: 80%;
 }
 
 #contact-right {
     /* border: solid green; */
-    width: 49%;
+    width: 55%;
     float: right;
     height: 80%; 
     
@@ -615,7 +621,7 @@ h4 {
 
 
 .timetable{
-    width: 52%;
+    width: 90%;
     height: 250px;
     margin: auto;
     line-height: 30px;
@@ -643,6 +649,15 @@ h4 {
 .participants{
     text-align: center;
 } 
+
+
+#table-div{
+    width: 60% ;
+    height: 400px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0 0 10px 10px white;
+}
 
 /*   MEDIA QUERIES   */
 
@@ -731,6 +746,14 @@ h4 {
         font-size: 20px; 
     }
 
+    #contact-nav-menu a {
+        font-size: 20px; 
+    }
+    
+    #contact-nav-menu #yourehere{
+        font-size: 20px; 
+    }
+
     p {
         font-size: 12px;
     }
@@ -775,7 +798,13 @@ h4 {
 
     .timetable {
         font-size: 17px; 
-        width: 60%;
+        /* width: 90%; */
+        margin: auto;
+        
+    }
+
+    div h2 {
+        font-size: 1.4vw;
     }
     
 
@@ -808,7 +837,7 @@ h4 {
     }
 
     .timetable{
-        width: 65%;
+        
         font-size: 14px;
     }
 
@@ -819,18 +848,221 @@ h4 {
     .membership-h2{
         font-size: 22px;
     }
+
+    #table-div{
+        width: 80% ;
+       
+    }
+
+    #contact-info {
+        display: block;
+        width: 80%;
+        height: 1200px;
+    }
+
+    #map{
+        height: 50%;
+        width:100%;
+       
+    }
+
+    #google-map {
+        height: 80%;
+        
+        left: 2.5%;
+    }
+
+    #telephone-email{
+        
+        width: 100%;
+        height: 50%;
+        
+    }
+
+    .main-image#contact-image{
+        min-height: 1450px;
+    }
+
+    
+
+}
+
+
+@media screen and (max-width: 800px){
+
+    .nav-menu a{
+        font-size: 15px; 
+     }
+ 
+    .nav-menu #yourehere {
+         font-size: 15px; 
+     }
+
+     #contact-nav-menu a {
+        font-size: 15px; 
+    }
+    
+    #contact-nav-menu #yourehere{
+        font-size: 15px; 
+    }
+
+    .membership-h2{
+        font-size: 18px;
+        padding-top: 90px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    #index-list li{
+        font-size: 20px;
+    }
+
+    .left-text li{
+        font-size: 15px;
+    }
+
+    .right-text li{
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 700px){
+
+    footer {
+        display: block;
+        width: 100%;
+        margin: auto;
+        height: 250px;
+        position: relative;
+        padding: 0;
+        bottom: 0px;
+    }
+
+    
+    #form-div{
+        width: 90%;
+    }
+
+    footer.membership-footer{ display: block;
+        width: 100%;
+        margin: auto;
+        height: 250px;
+        position: relative;
+        padding: 0;
+    }
+
+    .footer-1{
+        width: 100%;
+        margin: auto;      
+     }
+
+    
+
+    .footer-2{
+        width: 100%;   
+    }
+
+    .footer-3{
+        width: 100%;
+     
+    }
+
+    .footer-4{
+        width: 100%; 
+       
+    }
+
+   #index-image h1{
+        font-size: 300%;
+        padding-top: 130px;
+   }
+
+   #index-div {
+       width: 70%; 
+   }
+
+
+   .left-text li{
+       font-size: 13px;
+       line-height: 25px;
+   }
+
+   .right-text li{
+    font-size: 13px;
+    line-height: 25px;
+}
+
+    .facilities-divs{
+     height: 250px;
+     
+     
+    }
+
+}
+
+
+
+@media screen and (max-width: 620px){
+    .nav-menu {
+        display:block;
+       }
+
+    #contact-nav-menu {
+        display:block;
+       }
+
+    #index-image h1{
+        font-size: 250%;
+        padding-top: 220px;
+   }   
+
+
+   #facilitiesfirst {
+    top: 250px;
+     
+ }
+ 
+ #facilitiessecond {
+     top: 300px;
+ }
+ 
+ #facilitiesthird {
+     top: 450px; 
+ }
+ 
+ #facilitiesfourth {
+     top: 500px;
+ }
+ 
+ #facilitiesfifth {
+     top: 650px;
+ }
+
+
+ .membership-h2#classes-h2{
+     padding-top: 230px;
+ }
+
 }
 
 
 @media screen and (max-width: 420px) {
     
-    .nav-menu {
-     display:block;
-    }
+   
 
     footer {
-        height: 300px;
-        display: block;
+        height: 500px;
+        flex-direction: column;
+        line-height: 10px;
+        
+    }
+
+    .footer-1{
+        border: solid green;
     }
 
 
