@@ -1,693 +1,668 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Open+Sans&display=swap');
 
+/* ---------------------------------  OVERALL  -----------------------------------   */
 
-html, body {
-    margin: 0 auto;
-    padding: 0;
-   min-height: 100vh;
-  
-}
-
-
-
-.wrapper{
-    position:relative;
-    margin:0;
-    padding:0;
-    min-height: 100%;
-   
-}
-
-footer {
-    font-family: IBM Plex Sans, sans-serif;
-    height: 100px;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    position: fixed;
-    bottom: 0;
-    
-    padding: 0;
-    letter-spacing: 1.5px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 15px;
-    line-height: 5px;
-    color: white;
-}
-
-footer#index-footer {
-    background-color: rgb(46, 32, 24); 
-}
-
-footer#facilities-footer {
-    background-color: rgb(34, 71, 27);
-}
-
-
-footer#classes-footer{
-    background-color: rgb(77, 31, 31);
-  }
-
-/*  classes-footer called up in About Us  */
-footer.membership-footer {
-    background-color: rgb(41, 41, 43);
-}
-
-
-.footer-1{
-    float: left;
-    width: 20%; 
-}
-
-.footer-2{
-    width: 20%;
-    margin: 0 auto;
-}
-
-.footer-3{
-    float: right;
-    width: 30%;
-}
-
-.footer-4{
-    float: right;
-    width: 30%;
-}
-
-
-
-/* CREDIT : https://cache.marriott.com/marriottassets/marriott/BJVLC/bjvlc-fitness-9619-hor-feat.jpg */
-.main-image {
-    width:100%;
-    margin: 0 auto;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.9;
-   
-} 
-
-.main-image#index-image{
-    background-image: url('../images/main-image.jpg');
-    min-height: 97vh;
-}
-
-.main-image#facilities-image{
-    background-image: url('../images/facilities.jpeg');
-    /* min-height: 380vh; */
-    /* min-height: 100%; */
-    min-height: 100%;
-}
-
-.main-image#classes-image{
-    background-image: url('../images/classes.jpg');
-    min-height: 100%;
-}
-
-.main-image#membership-image{
-    background-image: url('../images/membership.jpeg');
-    height: 600px;
-}
-
-.main-image#contact-image{
-    background-image: url('../images/contactbackground.jpg');
-    min-height: 100vh;
-}
-
-
-.nav-menu {
-    position: relative;
-    font-family: IBM Plex Sans, sans-serif;
-    width: 90%;
-    height: 35px;
-    margin: auto;
-    top: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    list-style-type: none;
-    letter-spacing: 2px;
-    font-size: 25px;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-
-.nav-menu a {
-    text-decoration: none;
-    color: #ffff; 
-}
-
-.nav-menu #yourehere {
-    color: grey;
-    font-size:28px;
-}
-
-.nav-menu a:hover {
-    text-decoration: none;
-    color: grey; 
-} 
-
-#index-image h1 {
-    font-family: Roboto, sans-serif;
-    font-size: 450%;
-    text-align: center;
-    padding-top: 200px;
-    margin: 0 auto;
-    color: #eceaea;
-    letter-spacing: 5px;
-    text-transform: none;
-}
-
-
-#h2-logo {
-    color: #eceaea;
-}
-
-
-#index-div{
-    width: 35%;
-    height: 40%;
-    background-color: rgba(43, 9, 9, 0.6);
-    margin: auto;
-    display: flex;
-}
-
-
-#index-list {
-    text-align: left; 
-   color: white;   
-}
-
-#left-index-div{
-    float: left;
-    width: 80%;
-}
-
-#right-index-div{
-    float: right;
-    width: 20%;
-}
-  
-/*     FRONT PAGE ANIMATION      */
-
-#first-fade {
-    animation-name: fade-in-text;
-    animation-delay: 1s;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-}
-
-#second-fade {
-    animation-name: fade-in-text;
-    animation-delay: 3s;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-}
-
-#third-fade {
-    animation-name: fade-in-text;
-    animation-delay: 5s;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-}
-
-#fourth-fade {
-    animation-name: fade-in-text;
-    animation-delay: 7s;
-    animation-duration: 3s;
-    animation-fill-mode: both;
-}
-
-
-@keyframes fade-in-text {
-    from {
-        opacity: 0;
+    html, body {
+        margin: 0 auto;
+        padding: 0;
+        min-height: 100vh;  
     }
-    to {
-        opacity: 1;
+
+    .wrapper{
+        position:relative;
+        margin:0;
+        padding:0;
+        min-height: 100%;   
     }
-}
 
-/*--------------------------------------*/
-
-
-/*   MEMBERSHIP STYLE    */
-
-.membership-h2 {
-    
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-family: Roboto, sans-serif;
-    font-size: 30px;
-    margin: 0 auto;
-    text-align: center;
-    color:rgb(26, 26, 26);
-    
-}
-
-
-.list{
-    font-family: IBM Plex Sans, sans-serif; 
-    text-align: center;
-    font-size: 30px;
-    list-style-type: none;
-    line-height: 40px;
-    color: rgb(56, 56, 56);  
-}
-
-#membership-list {
-    color: rgb(56, 56, 56);
-    text-align: center;
-}
-
-
-#second-membership-section{
-    height: 1000px;
-    width: 100%;
-    background-color:rgb(158, 158, 158); 
-    opacity: 0.5;
-}
-
-.membershipcontent{
-    top: 30px;
-    position: relative;
-    
-}
-
-
-/*        CLASSES           */
-
-.tables{
-    font-family: IBM Plex Sans, sans-serif; 
-    font-size: 20px;
-    text-transform: uppercase;
-    color: grey;
-    width: 60%;
-    height: 200px;
-    border: solid rgb(158, 158, 158) 1px;
-    background-color: rgb(236, 236, 236);
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-}
-
-
-
-.spacer-div{
-    height: 70px;   
-}
-
-
-#classes-link{
-    text-decoration: none;
-    color:rgb(26, 26, 26);
-}
-
-#form-div{
-    width: 65%;
-    height: 900px;
-    /* background-color: white; */
-    margin: 0 auto;
-    padding-top: 30px;
+    .nav-menu {
+        position: relative;
+        font-family: IBM Plex Sans, sans-serif;
+        width: 90%;
+        height: 35px;
+        margin: auto;
+        top: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        list-style-type: none;
+        letter-spacing: 2px;
+        font-size: 25px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
     
     
-}
-
-#membership-form{
-    font-family: IBM Plex Sans, sans-serif; 
-    font-size: 20px;
-    margin: 0 auto;
-    width: 70%;
-    background-color:white;
-    color: rgb(58, 57, 57);
-    /* line-height: 60px; */
-    border: solid black 1px;
-
-}
-
-.form-spacer-div{
-    height: 20px;
-}
-
-#narrow-div{
-    width: 70%;
-    margin: auto;
+    .nav-menu a {
+        text-decoration: none;
+        color: #ffff; 
+    }
     
-}
-
-label {
-    font-size: 15px;
-}
-
-p {
-    font-size: 15px;
-}
-
-
-.spacer-div-color{
-    height: 100px;  
-    background-color:rgb(65, 70, 94); 
-    opacity: 0.5;
-    position:relative;
-    top: 0;
+    .nav-menu #yourehere {
+        color: grey;
+        font-size:28px;
+    }
     
-}
+    .nav-menu a:hover {
+        text-decoration: none;
+        color: grey; 
+    } 
 
-h2 {
-    font-family: Roboto, sans-serif;
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    letter-spacing: 2px;
-    padding-top: 20px;
-    text-transform: none;
-
-}
-
-#form-h2{
-    color:rgb(56, 56, 56);
-    font-size: 30px;
-}
-
-.text-input {
-    height: 40px;
-    width: 98%;
-    margin: auto;      
-}
-
-#signup{
-    width: 50%;
-    height: 40px;
-    margin: auto;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-#female #male {
-    margin: auto;
-}
-
-span {
-    color: green;
-}
+    .content{
+        height: 100%;
+        margin: 0;
+        position: relative;
+    }
 
 
+    div h1 {
+        font-family: IBM Plex Sans, sans-serif; 
+        color: black;
+        font-size: 25px;
+        letter-spacing: 4px;
+        text-align: center;
+        text-transform: uppercase;
+    }
 
-/*       FACILITIES            */
 
-.facilities-divs{
-    position: relative;
-    top: 15vh;
-    border: 4px solid white;
-    background-color: white;
-    position: relative;
-    height: 50vh;
-    width: 80%;
-    margin: 0 auto; 
+    div h2 {
+        font-size: 1.3vw;
+        font-family: IBM Plex Sans, sans-serif;
+        color: black;
+        margin: 0 auto;
+    }
+
+
+    p {
+        font-size: 15px;
+    }
     
-}
-
-.content{
-    height: 100%;
+        
     
-    margin: 0;
-    /* padding-bottom: 50px; */
-    position: relative;
-
-}
-
-
-.facilities-divs h2{
-    font-size: 2vw;
-}
-
-.spacer-div-var{
-    height: 15vh;
-}
+    h2 {
+        font-family: Roboto, sans-serif;
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        letter-spacing: 2px;
+        padding-top: 20px;
+        text-transform: none;
+    }
 
 
-.leftpic{
-    width:50%;
-    height:100%;
-    float:left;
-}
+    h3 {
+        font-size: 19px;
+        font-family: IBM Plex Sans, sans-serif;
+        color: black;
+        text-align: center;
+    }
 
-.rightpic{
-    width:50%;
-    height:100%;
-    float:right;
-}
-
-
-
-.right-text{
-    position: relative;
-    top: 20%;
-    text-align: center;
-    font-size: 22px;
-    line-height: 40px;
-    list-style-type: none;
-    font-family: IBM Plex Sans, sans-serif;
-}
-
-.left-text{
-    top: 20%;
-    position: relative;
-    text-align: center;
-    font-size: 22px;
-    line-height: 40px;
-    list-style-type: none;
-    font-family: IBM Plex Sans, sans-serif;
-}
- 
-
-/* CONTACT PAGE  */
-
-/* CREDIT : https://cache.marriott.com/marriottassets/marriott/BJVLC/bjvlc-fitness-9619-hor-feat.jpg */
+    h4 {
+        font-size: 14px;
+        font-family: IBM Plex Sans, sans-serif;
+        color: black;
+        text-align:center;
+    }
 
 
-#contact-nav-menu {
-    font-family: IBM Plex Sans, sans-serif;
-    width: 90%;
-    margin: auto;
-    top: 20px;
-    position: absolute;
-    text-align: center;
-    text-transform: uppercase;
-    list-style-type: none;
-    letter-spacing: 2px;
-    font-size: 25px;
-    display: flex;
-    justify-content: space-between;
+    hr {
+        width: 80%;
+    }    
+
+    footer {
+        font-family: IBM Plex Sans, sans-serif;
+        height: 100px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 0;
+        padding: 0;
+        letter-spacing: 1.5px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 15px;
+        line-height: 5px;
+        color: white;
+    }
+
+    .footer-1{
+        float: left;
+        width: 20%; 
+    }
+    
+    .footer-2{
+        width: 20%;
+        margin: 0 auto;
+    }
+    
+    .footer-3{
+        float: right;
+        width: 30%;
+    }
+    
+    .footer-4{
+        float: right;
+        width: 30%;
+    }
+    
+
+/*  ------------------------------------ INDEX  -----------------------------------------  */
+
+    .main-image {
+        width:100%;
+        margin: 0 auto;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        opacity: 0.9;  
+    } 
+
+    .main-image#index-image{
+        background-image: url('../images/main-image.jpg');
+        min-height: 97vh;
+    }
+
+    #index-image h1 {
+        font-family: Roboto, sans-serif;
+        font-size: 450%;
+        text-align: center;
+        padding-top: 200px;
+        margin: 0 auto;
+        color: #eceaea;
+        letter-spacing: 5px;
+        text-transform: none;
+    }
+    
+    
+    #h2-logo {
+        color: #eceaea;
+    }
+
+    .spacer-div{
+        height: 70px;   
+    }
+    
+    
+    #index-div{
+        width: 35%;
+        height: 40%;
+        background-color: rgba(43, 9, 9, 0.6);
+        margin: auto;
+        display: flex;
+    }
+    
+    
+    #index-list {
+        text-align: left; 
+        color: white;   
+    }
+    
+    #left-index-div{
+        float: left;
+        width: 80%;
+    }
+    
+    #right-index-div{
+        float: right;
+        width: 20%;
+    }
+      
+    /*  ---   FRONT PAGE ANIMATION   ---   */
+    
+    #first-fade {
+        animation-name: fade-in-text;
+        animation-delay: 1s;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+    }
+    
+    #second-fade {
+        animation-name: fade-in-text;
+        animation-delay: 3s;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+    }
+    
+    #third-fade {
+        animation-name: fade-in-text;
+        animation-delay: 5s;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+    }
+    
+    #fourth-fade {
+        animation-name: fade-in-text;
+        animation-delay: 7s;
+        animation-duration: 3s;
+        animation-fill-mode: both;
+    }
+    
+    
+    @keyframes fade-in-text {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+
+    footer#index-footer {
+        background-color: rgb(46, 32, 24); 
+    }
+
+
+/*  ----------------------------------  FACILITIES  -------------------------------------   */
+
+    .main-image#facilities-image{
+        background-image: url('../images/facilities.jpeg');
+        min-height: 100%;
+    }    
+
+
+    .facilities-divs{
+        position: relative;
+        top: 15vh;
+        border: 4px solid white;
+        background-color: white;
+        position: relative;
+        height: 50vh;
+        width: 80%;
+        margin: 0 auto; 
+        
+    }
+    
      
-}
-
-#contact-nav-menu a {
-    text-decoration: none;
-    color:rgb(65, 70, 94); 
-}
-
-#contact-nav-menu #yourehere {
-    color:seashell;
-    font-size:28px;
-}
-
-#contact-nav-menu a:hover {
-    text-decoration: none;
-    color: grey; 
-} 
-
-
-#contact-info{
-    height: 600px;
-    width: 70%;
-    margin: 0 auto;
-    border: solid 1px black;
-    background-color: white;
-    top: 150px;
-    position: relative;
-    display: flex;
-}
-
-#map{
-    width: 50%;
-    position: relative;
-    float: right;
+    .facilities-divs h2{
+        font-size: 2vw;
+    }
     
-}
-
-#google-map{
-    width: 95%;
-    height: 80%;
-    margin: auto;
-    position: relative;
-    border: 0;
+    .spacer-div-var{
+        height: 15vh;
+    }
     
     
-}
-
-div h1 {
-    font-family: IBM Plex Sans, sans-serif; 
-    color: black;
-    font-size: 25px;
-    letter-spacing: 4px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#telephone-email{
-    width: 50%;   
-    float: left;
+    .leftpic{
+        width:50%;
+        height:100%;
+        float:left;
+    }
     
-}
-
-
-div h2 {
-    font-size: 1.3vw;
-    font-family: IBM Plex Sans, sans-serif;
-    color: black;
-    margin: 0 auto;
-}
-
-h3 {
-    font-size: 19px;
-    font-family: IBM Plex Sans, sans-serif;
-    color: black;
-    text-align: center;
-    /* margin: 0 auto;
-    left: 80px;
-    position: relative; */
-}
-
-hr {
-    width: 80%;
-}
-
-.social-media{
-    height: 100px;
-    width: 80%;
-    display: flex;
-    margin: 0 auto;
-}
-
-.sm {
-    width: 33%;
-    margin: auto 0;
-    text-align: center;
-    font-size: 40px;
-    color: black; 
-}
-
-a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-.sm:hover {
-    color:rgb(26, 26, 26);
-    font-size: 42px;
-}
-
-
-#contact-div{
-    width: 95%;
-    display: flex;
-    margin: auto 0;
-    left: 30px;
-    position: relative;
+    .rightpic{
+        width:50%;
+        height:100%;
+        float:right;
+    }
     
-}
-
-#contact-left{
-   
-    width: 45%;
-    float: left;
-    height: 80%;
-}
-
-#contact-right {
+        
+    .right-text{
+        position: relative;
+        top: 20%;
+        text-align: center;
+        font-size: 22px;
+        line-height: 40px;
+        list-style-type: none;
+        font-family: IBM Plex Sans, sans-serif;
+    }
     
-    width: 55%;
-    float: right;
-    height: 80%; 
+    .left-text{
+        top: 20%;
+        position: relative;
+        text-align: center;
+        font-size: 22px;
+        line-height: 40px;
+        list-style-type: none;
+        font-family: IBM Plex Sans, sans-serif;
+    }
+     
+
+    footer#facilities-footer {
+        background-color: rgb(34, 71, 27);
+    }
+
     
-}
-
-h4 {
-    font-size: 14px;
-    font-family: IBM Plex Sans, sans-serif;
-    color: black;
-    text-align:center;
-}
-
-/* CLASSES */
 
 
+/*  ---------------------------------  CLASSES  -----------------------------------------  */
 
-#gallery {
-    /* top: 50%; */
-    position: relative;
-    background-color: white;
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-    width: 85%;
-    margin: auto;
-    padding-bottom: 350px;
-}
 
-#gallery > img {
-    width: 93%;
-    padding: 15px;
+    footer#classes-footer{
+        background-color: rgb(77, 31, 31);
+    }
+
+    .main-image#classes-image{
+        background-image: url('../images/classes.jpg');
+        min-height: 100%;
+    }
+
+    /*  classes-footer called up in About Us  */
+    footer.membership-footer {
+        background-color: rgb(41, 41, 43);
+    }
+
+
+    .tables{
+        font-family: IBM Plex Sans, sans-serif; 
+        font-size: 20px;
+        text-transform: uppercase;
+        color: grey;
+        width: 60%;
+        height: 200px;
+        border: solid rgb(158, 158, 158) 1px;
+        background-color: rgb(236, 236, 236);
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+    #classes-link{
+        text-decoration: none;
+        color:rgb(26, 26, 26);
+    }
+
+
+    #gallery {
+        /* top: 50%; */
+        position: relative;
+        background-color: white;
+        clear: both;
+        line-height: 0;
+        column-count: 4;
+        column-gap: 0;
+        width: 85%;
+        margin: auto;
+        padding-bottom: 350px;
+    }
+
     
-       
-}
-
-
-
-.timetable{
-    width: 90%;
-    height: 250px;
-    margin: auto;
-    line-height: 30px;
-    font-family: IBM Plex Sans, sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;
+    #gallery > img {
+        width: 93%;
+        padding: 15px;      
+    }
+    
+        
+    .timetable{
+        width: 90%;
+        height: 250px;
+        margin: auto;
+        line-height: 30px;
+        font-family: IBM Plex Sans, sans-serif;
+        font-size: 20px;
+        letter-spacing: 1px;       
+    }
     
     
-}
+    .blank-row{
+        height: 20px;
+    }
+    
+    
+    .activity{
+       text-align: center;
+    }
+    
+    .time{
+        text-align: center;
+    }
+    
+    .participants{
+        text-align: center;
+    } 
+    
+    
+    #table-div{
+        width: 60% ;
+        height: 400px;
+        background-color: white;
+        margin: auto;
+        box-shadow: 0 0 10px 10px white;
+    }
 
 
-.blank-row{
-    height: 20px;
-}
 
 
-.activity{
-   text-align: center;
-}
 
-.time{
-    text-align: center;
-}
+/*  ------------------------------------  MEMBERSHIP  -------------------------------------------   */
 
-.participants{
-    text-align: center;
-} 
+    .main-image#membership-image{
+        background-image: url('../images/membership.jpeg');
+        height: 600px;
+    }    
 
 
-#table-div{
-    width: 60% ;
-    height: 400px;
-    background-color: white;
-    margin: auto;
-    box-shadow: 0 0 10px 10px white;
-}
+    .membership-h2 {
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-family: Roboto, sans-serif;
+        font-size: 30px;
+        margin: 0 auto;
+        text-align: center;
+        color:rgb(26, 26, 26); 
+    }
+
+
+    .list{
+        font-family: IBM Plex Sans, sans-serif; 
+        text-align: center;
+        font-size: 30px;
+        list-style-type: none;
+        line-height: 40px;
+        color: rgb(56, 56, 56);  
+    }
+
+
+    #membership-list {
+        color: rgb(56, 56, 56);
+        text-align: center;
+    }
+
+
+    #second-membership-section{
+        height: 1000px;
+        width: 100%;
+        background-color:rgb(158, 158, 158); 
+        opacity: 0.5;
+    }
+
+
+    .membershipcontent{
+        top: 30px;
+        position: relative;
+    }
+
+
+    #form-div{
+        width: 65%;
+        height: 900px;
+        /* background-color: white; */
+        margin: 0 auto;
+        padding-top: 30px;
+        
+        
+    }
+    
+    #membership-form{
+        font-family: IBM Plex Sans, sans-serif; 
+        font-size: 20px;
+        margin: 0 auto;
+        width: 70%;
+        background-color:white;
+        color: rgb(58, 57, 57);
+        /* line-height: 60px; */
+        border: solid black 1px;
+    
+    }
+
+    #form-h2{
+        color:rgb(56, 56, 56);
+        font-size: 30px;
+    }
+    
+    .text-input {
+        height: 40px;
+        width: 98%;
+        margin: auto;      
+    }
+    
+    #signup{
+        width: 50%;
+        height: 40px;
+        margin: auto;
+        font-size: 15px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+    
+    #female #male {
+        margin: auto;
+    }
+    
+    span {
+        color: green;
+    }
+    
+    
+    .form-spacer-div{
+        height: 20px;
+    }
+    
+    #narrow-div{
+        width: 70%;
+        margin: auto;
+        
+    }
+    
+    label {
+        font-size: 15px;
+    }
+
+
+
+
+/*  -------------------------------------  CONTACT PAGE  --------------------------------------  */
+
+    .main-image#contact-image{
+        background-image: url('../images/contactbackground.jpg');
+        min-height: 100vh;
+    }
+
+
+    #contact-nav-menu {
+        font-family: IBM Plex Sans, sans-serif;
+        width: 90%;
+        margin: auto;
+        top: 20px;
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        list-style-type: none;
+        letter-spacing: 2px;
+        font-size: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #contact-nav-menu a {
+        text-decoration: none;
+        color:rgb(65, 70, 94); 
+    }
+
+    #contact-nav-menu #yourehere {
+        color:seashell;
+        font-size:28px;
+    }
+
+    #contact-nav-menu a:hover {
+        text-decoration: none;
+        color: grey; 
+    } 
+
+
+    #contact-info{
+        height: 600px;
+        width: 70%;
+        margin: 0 auto;
+        border: solid 1px black;
+        background-color: white;
+        top: 150px;
+        position: relative;
+        display: flex;
+    }
+
+    #map{
+        width: 50%;
+        position: relative;
+        float: right;
+    }
+
+
+    #google-map{
+        width: 95%;
+        height: 80%;
+        margin: auto;
+        position: relative;
+        border: 0;
+    }
+
+
+    #telephone-email{
+        width: 50%;   
+        float: left;   
+    }
+
+
+
+    .social-media{
+        height: 100px;
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .sm {
+        width: 33%;
+        margin: auto 0;
+        text-align: center;
+        font-size: 40px;
+        color: black; 
+    }
+
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+
+    .sm:hover {
+        color:rgb(26, 26, 26);
+        font-size: 42px;
+    }
+
+
+    #contact-div{
+        width: 95%;
+        display: flex;
+        margin: auto 0;
+        left: 30px;
+        position: relative;    
+    }
+
+    #contact-left{
+        width: 45%;
+        float: left;
+        height: 80%;
+    }
+
+    #contact-right {
+        width: 55%;
+        float: right;
+        height: 80%; 
+    }
+
+
 
 /* ------------------------------------  MEDIA QUERIES  --------------------------------------- */   
 
@@ -1183,25 +1158,36 @@ h4 {
 
 @media screen and (max-width: 520px){
     
+/*  OVERALL  520   */
+ /*   INDEX  520 */
+/*   FACILITIES 520  */
 
- /*   INDEX  1640 */
-/*   FACILITIES 1640  */
-/*   CLASSES  1640  */
-/*   MEMBERSHIP  1640  */
-/*   ABOUT US   1640  */
-
-
-    #membership-form{
-        font-size: 15px;
+    .facilities-divs{
+        height: 200px;
     }
-    
-    .timetable{
+
+    .facilities-divs h2 {
+        font-size: 3vw;
+    }
+
+    .left-text li{
+        font-size: 12px;
+        line-height: 15px;
         
+    }
+
+    .right-text li{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+/*   CLASSES  520  */
+
+    .timetable {    
         line-height: 10px;
-       height: 100%;
+        height: 100%;
         font-size: 10px;
         letter-spacing: none;
-
     }
 
     .blank-row{
@@ -1227,25 +1213,10 @@ h4 {
         height: 320px;
     }
 
+/*   MEMBERSHIP  520  */
 
-
-    .left-text li{
-        font-size: 12px;
-        line-height: 15px;
-        
-    }
-
-    .right-text li{
-        font-size: 12px;
-        line-height: 15px;
-    }
-
-    .facilities-divs{
-        height: 200px;
-    }
-
-    .facilities-divs h2 {
-        font-size: 3vw;
+    #membership-form{
+        font-size: 15px;
     }
 
     .membership-offers, .list li, .membershipcontent h2{
@@ -1256,15 +1227,15 @@ h4 {
         height: 15px;
     }
 
+/*   ABOUT US   520  */
     
-
+/*   520 END  */
 }
 
 
-
 @media screen and (max-width: 420px) {
-    
-   
+
+/*   OVERALL  420 */ 
 
     footer {
         height: 250px;
@@ -1275,33 +1246,15 @@ h4 {
         line-height: 5px;   
     }
 
-    #classes-footer{
-        position: absolute;
-        bottom: 0;
-    
-    }
 
-
-    /* #classes-image {
-        border: solid green;}
-
-    body {
-        border: solid red;} */
-    
-
-        
-    #gallery {
-        column-count: 1;
-    } 
+/*   INDEX  420 */
 
     #left-index-div{
         width: 80%;
-        
-          }
-    
+    }
+
     #right-index-div{
         width: 20%;
-       
     }
 
     #index-div li {
@@ -1315,20 +1268,44 @@ h4 {
     #left-index-div li {
         text-indent: -35px;
     }
-   
 
+/*   FACILITIES 420  */
+/*   CLASSES  420  */
+
+    #classes-footer{
+        position: absolute;
+        bottom: 0;
+    }
+
+    #gallery {
+        column-count: 1;
+    }
+
+/*   MEMBERSHIP  420  */
+/*   ABOUT US   420  */
+   
+/*  END 420  */
 }
+
 
 @media screen and (max-width: 380px) {
 
-    /* MEMBERSHIP 380  */
+
+/*   OVERALL  380   */
+/*   INDEX  380 */
+/*   FACILITIES 380  */
+/*   CLASSES  380  */
+/*   MEMBERSHIP  380  */
 
     .list li{
         line-height: 20px;
-        
         width: 90%;
     }
 
+/*   ABOUT US   380  */    
+    
+    
+/*   END 380     */
 }
 
 @media screen and (max-height: 850px){
