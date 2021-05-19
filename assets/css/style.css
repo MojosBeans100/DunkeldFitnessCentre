@@ -66,7 +66,7 @@
 
 
     div h2 {
-        font-size: 1.3vw;
+        font-size: 15px;
         font-family: IBM Plex Sans, sans-serif;
         color: black;
         margin: 0 auto;
@@ -572,7 +572,7 @@
     }
 
     #contact-nav-menu #yourehere {
-        color:seashell;
+        color:rgb(224, 216, 210);
         font-size:28px;
     }
 
@@ -597,6 +597,7 @@
         width: 50%;
         position: relative;
         float: right;
+        border: solid orange;
     }
 
 
@@ -606,14 +607,15 @@
         margin: auto;
         position: relative;
         border: 0;
+        border: solid purple;
     }
 
 
     #telephone-email{
         width: 50%;   
-        float: left;   
+        float: left;  
+        border: solid red; 
     }
-
 
 
     .social-media{
@@ -621,6 +623,7 @@
         width: 80%;
         display: flex;
         margin: 0 auto;
+        border: solid blue;
     }
 
     .sm {
@@ -645,21 +648,24 @@
     #contact-div{
         width: 95%;
         display: flex;
-        margin: auto 0;
+        margin: auto;
         left: 30px;
-        position: relative;    
+        position: relative;  
+        border: solid yellowgreen;  
     }
 
     #contact-left{
         width: 45%;
         float: left;
         height: 80%;
+        border: solid pink;
     }
 
     #contact-right {
         width: 55%;
         float: right;
         height: 80%; 
+        border: solid yellow;
     }
 
 
@@ -761,10 +767,6 @@
         font-size: 12px;
         top: 15px;
         position: relative;
-    }
-
-    div h2 {
-        font-size: 1.4vw;
     }
     
 
@@ -890,6 +892,10 @@
 
     .membership-h2{
         font-size: 22px;
+    }
+
+    .membershipcontent h2 {
+        font-size: 20px;
     }
 
 /*   ABOUT US   920  */   
@@ -1058,7 +1064,8 @@
     #second-membership-section{
         height: 900px;
     }
-    
+
+        
     #form-div{
         width: 90%;
     }
@@ -1141,16 +1148,15 @@
 
 /*   ABOUT US   620  */
 
-    #contact-info {
-        top: 230px;
-        padding-bottom: 200px;
+    #contact-div {
+        left: 0;
     }
 
-
     #contact-nav-menu {
-        display:block;
+        display: block;
         margin: auto;
-       }
+    }
+ 
 
 /*  END 620   */
 }
@@ -1160,6 +1166,18 @@
     
 /*  OVERALL  520   */
  /*   INDEX  520 */
+
+    #index-image h1 {
+        top: -30px;
+        position: relative;
+        font-size: 35px;
+    }
+
+    #index-div li {
+        font-size: 14px;
+    }
+
+
 /*   FACILITIES 520  */
 
     .facilities-divs{
@@ -1228,6 +1246,27 @@
     }
 
 /*   ABOUT US   520  */
+
+    #map{
+        height: 40%;
+    }
+
+    #google-map{
+        height: 100%;
+    }
+
+    #telephone-email h2 {
+        font-size: 12px;
+    }
+
+    #contact-div h3 {
+        font-size: 15px
+    }
+
+    #contact-div h4 {
+        font-size: 12px;
+    }
+
     
 /*   520 END  */
 }
@@ -1283,6 +1322,23 @@
 
 /*   MEMBERSHIP  420  */
 /*   ABOUT US   420  */
+
+    #telephone-email{
+        height: 65%;
+    }
+
+    #contact-info{
+        height: 1000px;
+        top: 250px;
+    }
+
+    #map{
+        height: 35%;
+    }
+
+    #google-map{
+        height: 60%;
+    }   
    
 /*  END 420  */
 }
@@ -1304,9 +1360,32 @@
 
 /*   ABOUT US   380  */    
     
-    
+    #contact-div h3 {
+        font-size: 13px
+    }
+
+    #contact-div h4 {
+        font-size: 10px;
+    }
+
+    .sm{
+        font-size: 25px;
+    }
+
+    #contact-info{
+        height: 800px;
+    }
+
+        
 /*   END 380     */
 }
+
+
+
+
+
+
+
 
 @media screen and (max-height: 850px){
     .left-text li, .right-text li{
@@ -1320,6 +1399,7 @@
     
 
 } 
+
 
 @media screen and (max-height: 620px){
   .facilitiescontent{
