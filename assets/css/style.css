@@ -12,7 +12,7 @@
         position:relative;
         margin:0;
         padding:0;
-        min-height: 100%;   
+        min-height: 100%;  
     }
 
     .nav-menu {
@@ -597,7 +597,6 @@
         width: 50%;
         position: relative;
         float: right;
-        border: solid orange;
     }
 
 
@@ -607,14 +606,12 @@
         margin: auto;
         position: relative;
         border: 0;
-        border: solid purple;
     }
 
 
     #telephone-email{
         width: 50%;   
         float: left;  
-        border: solid red; 
     }
 
 
@@ -623,7 +620,6 @@
         width: 80%;
         display: flex;
         margin: 0 auto;
-        border: solid blue;
     }
 
     .sm {
@@ -650,22 +646,19 @@
         display: flex;
         margin: auto;
         left: 30px;
-        position: relative;  
-        border: solid yellowgreen;  
+        position: relative;   
     }
 
     #contact-left{
         width: 45%;
         float: left;
         height: 80%;
-        border: solid pink;
     }
 
     #contact-right {
         width: 55%;
         float: right;
         height: 80%; 
-        border: solid yellow;
     }
 
 
@@ -696,6 +689,15 @@
 /*   INDEX  1640 */
 /*   FACILITIES 1640  */
 /*   CLASSES  1640  */
+
+    #classes-h2{
+        padding-top: 80px;
+    }
+
+    #pics-below{
+        padding: 80px 0;
+    }
+
 /*   MEMBERSHIP  1640  */
 /*   ABOUT US   1640  */
 
@@ -998,7 +1000,7 @@
         height: 250px;
         position:relative;
         padding:0;
-        bottom: 0;
+        bottom: 0; 
     }
 
     .footer-1{
@@ -1128,7 +1130,11 @@
     }
 
     #classes-h2{
-        padding-top: 230px;
+        padding-top: 200px;
+    }
+
+    #pics-below{
+        padding: 50px 0;
     }
 
 /*   MEMBERSHIP  620  */
@@ -1156,6 +1162,12 @@
         display: block;
         margin: auto;
     }
+
+    #contact-info{
+        top: 220px;
+    }
+
+
  
 
 /*  END 620   */
@@ -1214,17 +1226,14 @@
 
     .participants{
         width: 5%;
-        border: solid yellow;
     }
 
     .time{
         width: 30%;
-        border: solid purple;
     }
 
     .activity {
         width: 30%;
-        border: solid orange;
     }
 
     #table-div{
@@ -1267,6 +1276,10 @@
         font-size: 12px;
     }
 
+    #telephone-email h1, #map h1{
+        font-size: 20px;
+    }
+
     
 /*   520 END  */
 }
@@ -1276,14 +1289,14 @@
 
 /*   OVERALL  420 */ 
 
-    footer {
+    /* footer {
         height: 250px;
         flex-direction: column;
         line-height: 10px;
-        position: relative;
+        position: sticky;
         bottom: 0;
         line-height: 5px;   
-    }
+    } */
 
 
 /*   INDEX  420 */
@@ -1320,7 +1333,26 @@
         column-count: 1;
     }
 
+    #table-div {
+        width: 92%;
+    }
+
 /*   MEMBERSHIP  420  */
+
+    #membership-form h4{
+        font-size: 12px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    #signup{
+        font-size: 13px;
+    }
+
+
+
 /*   ABOUT US   420  */
 
     #telephone-email{
@@ -1333,7 +1365,7 @@
     }
 
     #map{
-        height: 35%;
+        height: 40%;
     }
 
     #google-map{
@@ -1373,7 +1405,16 @@
     }
 
     #contact-info{
-        height: 800px;
+        height: 1000px;
+    }
+
+    #telephone-email{
+        height: 50%;
+    }
+
+    
+    #map{
+        height: 50%;
     }
 
         
@@ -1396,21 +1437,55 @@
         padding-top: 5vh;
     } */
 
-    
-
 } 
 
 
 @media screen and (max-height: 620px){
-  .facilitiescontent{
-      top: 100px;
-      
-  }
+  
+/*   OVERALL     */
+/*   INDEX     */
 
-  .list li,{
-    font-size: 20px;
-    line-height: 20px;
-}
+
+    /* #index-image h1{
+        padding-top: 0;
+        position: relative;
+        top: 50px;
+        /* top: 50%; */
+        /* font-size: 40px;
+        border: solid green; */
+    }
+
+    /* #index-div {
+        bottom: 10%;
+        height: 200px;
+        position: relative;
+        border: solid orange;
+    } */ 
+
+/*   FACILITIES   */
+
+    .facilitiescontent{
+        top: 100px;
+    }
+
+/*   CLASSES     */
+/*   MEMBERSHIP     */
+
+    .list li,{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+/*   ABOUT US     */
+
+
+
+  
+  
+  
+    
+
+  
 
 /* #memberoffers{
     font-size: 20px;
@@ -1419,3 +1494,4 @@
     
     
 } 
+

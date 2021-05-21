@@ -17,5 +17,7 @@ Same with About Us footer and content.
 
 3. Navigation looks like it is not in the center.
 
+4. Classes pics sit to the right and not in centre of white gallery background. 
+
 
 
