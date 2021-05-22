@@ -10,24 +10,28 @@
 
     /*new*/
     html {
-        border: solid palevioletred;
+        /* border: solid palevioletred; */
         /* height: auto; */
         display: flex;
         flex-direction: column;  
+       
     }
 
     /*new*/
     html, body {
         /* height: 100%; */
         width:100%;
+        
+        
       }
     
       /*new*/
       body {
         width: 100%;
-        border: solid black; 
+        /* border: solid black;  */
         padding: 0;
         margin: 0;
+        height: 100vh;
       }
 
     .wrapper{
@@ -181,6 +185,67 @@
     
 /*  ------------------------------------ INDEX  -----------------------------------------  */
 
+    /*  PLAYING   */
+
+    .main-image#index-image{
+        background-image: url('../images/main-image.jpg');
+        height:100vh;
+    }
+
+    #index-content{
+        font-family: Roboto, sans-serif;
+        border: solid yellow;
+        margin: auto;
+        top: 20%;
+        position: relative;   
+    }
+
+    #index-animation-div{
+        /* height: 30vh; */
+        width: 40%;
+        margin: auto;
+        background-color: rgb(46, 32, 24);
+        display: flex;
+    }
+
+    #index-left-animation{
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+
+    #index-right-animation{
+        width: 30%;
+        float: right;
+        text-align: center;
+    }
+
+    /* .index-animation-list{
+        color: white;
+        font-size: 2vw;
+        list-style-type: none;
+        line-height: 5vh;
+    } */
+
+    .index-animation-list li{
+        color: white;
+        font-size: 1.8vw;
+        list-style-type: none;
+        line-height: 5vh;
+    }
+
+    #index-title{
+        font-size: 5vw;
+        color: white;
+        text-align: center;
+        letter-spacing: 5px;
+        text-transform: none;
+    } 
+
+    /*  PLAYING   */
+
+
+
     .main-image {
         width:100%;
         margin: 0 auto;
@@ -193,9 +258,10 @@
 
     .main-image#index-image{
         background-image: url('../images/main-image.jpg');
-        min-height: 97vh;
+        /* height: 100vh;  */
+        
     }
-
+/* 
     #index-image h1 {
         font-family: Roboto, sans-serif;
         font-size: 450%;
@@ -205,31 +271,31 @@
         color: #eceaea;
         letter-spacing: 5px;
         text-transform: none;
-    }
+    } */
     
-    #h2-logo {
+    /* #h2-logo {
         color: #eceaea;
         font-size: 20px;
-    }
+    } */
 
-    .spacer-div{
+    /* .spacer-div{
         height: 70px;   
-    }
+    } */
     
-    #index-div{
+    /* #index-div{
         width: 35%;
         height: 40%;
         background-color: rgba(43, 9, 9, 0.6);
         margin: auto;
         display: flex;
-    }
+    } */
     
-    #index-list {
+    /* #index-list {
         text-align: left; 
         color: white;   
-    }
+    } */
     
-    #left-index-div{
+    /* #left-index-div{
         float: left;
         width: 80%;
     }
@@ -237,6 +303,12 @@
     #right-index-div{
         float: right;
         width: 20%;
+    } */
+
+    footer#index-footer {
+        background-color: rgb(46, 32, 24);
+        position: absolute;
+        bottom: 0;
     }
       
     /*  ---   FRONT PAGE ANIMATION   ---   */
@@ -278,9 +350,7 @@
         }
     }
     
-    footer#index-footer {
-        background-color: rgb(46, 32, 24); 
-    }
+    
 
 /*  ----------------------------------  FACILITIES  -------------------------------------   */
 
@@ -879,9 +949,9 @@
         width: 50%;
     }
 
-    #index-image h1 {
+    /* #index-image h1 {
         font-size: 380%;  
-    }
+    } */
 
 /*   FACILITIES 1050  */
 
@@ -1005,9 +1075,9 @@
 
 /*   INDEX  800 */
 
-    #index-image h1{
+    /* #index-image h1{
         font-size: 310%;
-    }
+    } */
 
     #index-list li{
         font-size: 20px;
@@ -1072,10 +1142,19 @@
 
 /*  INDEX  700  */
 
-    #index-image h1{
+    #index-image{
+        height: 100%;
+    }
+
+    #index-footer{
+        position:sticky;
+        bottom: 0;
+    }
+
+    /* #index-image h1{
         font-size: 300%;
         padding-top: 130px;
-    }
+    } */
 
     #index-div {
         width: 70%; 
