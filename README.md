@@ -139,5 +139,31 @@ When I arrive at the front page, one of the first pieces of text I see states th
 * Was there any text they could not read?
 * Was attention drawn from important features to less important feature, and why?
 
+## Third test: the author of the website opened the website in different sized browsers.
 
+This test was to ensure the website made sense on different browser sizes.  The format could be improved on smaller screen sizes, and the code could be written more efficiently to adapt to different sizes - for example using more responsive units for font-size, width, height etc.  
 
+The main goal of this test was to ensure that the website did  not look messy or disorganized, still made sense and the structure could be followed.
+
+## Fourth test: the author of the website tested all the links and hyperlinks several times
+
+To ensure all the links were working and did not lead to an error page. 
+
+# Validator Testing
+
+## HTML Testing
+The code was passed through the official HTML *W3C validator* with no errors returned. 
+
+## CSS Testing
+The code was passed through the official CSS *Jigsaw validator* with no errors returned. 
+
+## Unfixed Bugs
+
+# Deployment
+
+# Credits
+## Content
+All content was written by the author.  
+
+## Media 
+Most media images were sourced from Pexels website.

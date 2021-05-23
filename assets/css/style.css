@@ -79,21 +79,21 @@
         position: relative;
     }
 
-    div h1 {
+    /* div h1 {
         font-family: "IBM Plex Sans", sans-serif; 
         color: black;
         font-size: 25px;
         letter-spacing: 4px;
         text-align: center;
         text-transform: uppercase;
-    }
+    } */
 
-    div h2 {
+    /* div h2 {
         font-size: 15px;
         font-family: "IBM Plex Sans", sans-serif;
         color: black;
         margin: 0 auto;
-    }
+    } */
 
     p {
         font-size: 15px;
@@ -161,8 +161,7 @@
         line-height: 5px;
         color: white;
         }
-
-
+       
     .footer-1{
         float: left;
         width: 20%; 
@@ -185,8 +184,6 @@
     
 /*  ------------------------------------ INDEX  -----------------------------------------  */
 
-    /*  PLAYING   */
-
     .main-image#index-image{
         background-image: url('../images/main-image.jpg');
         height:100vh;
@@ -194,7 +191,6 @@
 
     #index-content{
         font-family: Roboto, sans-serif;
-        border: solid yellow;
         margin: auto;
         top: 20%;
         position: relative;   
@@ -220,13 +216,6 @@
         text-align: center;
     }
 
-    /* .index-animation-list{
-        color: white;
-        font-size: 2vw;
-        list-style-type: none;
-        line-height: 5vh;
-    } */
-
     .index-animation-list li{
         color: white;
         font-size: 1.8vw;
@@ -236,15 +225,18 @@
 
     #index-title{
         font-size: 5vw;
-        color: white;
+        color: rgb(245, 245, 241);
         text-align: center;
         letter-spacing: 5px;
         text-transform: none;
     } 
 
-    /*  PLAYING   */
-
-
+    #index-footer h2{
+        font-size: 20px;
+        color: white;
+        line-height: 10px;
+        padding-top: 0;
+    }      
 
     .main-image {
         width:100%;
@@ -256,56 +248,7 @@
         opacity: 0.9;  
     } 
 
-    .main-image#index-image{
-        background-image: url('../images/main-image.jpg');
-        /* height: 100vh;  */
-        
-    }
-/* 
-    #index-image h1 {
-        font-family: Roboto, sans-serif;
-        font-size: 450%;
-        text-align: center;
-        padding-top: 200px;
-        margin: 0 auto;
-        color: #eceaea;
-        letter-spacing: 5px;
-        text-transform: none;
-    } */
-    
-    /* #h2-logo {
-        color: #eceaea;
-        font-size: 20px;
-    } */
-
-    /* .spacer-div{
-        height: 70px;   
-    } */
-    
-    /* #index-div{
-        width: 35%;
-        height: 40%;
-        background-color: rgba(43, 9, 9, 0.6);
-        margin: auto;
-        display: flex;
-    } */
-    
-    /* #index-list {
-        text-align: left; 
-        color: white;   
-    } */
-    
-    /* #left-index-div{
-        float: left;
-        width: 80%;
-    }
-    
-    #right-index-div{
-        float: right;
-        width: 20%;
-    } */
-
-    footer#index-footer {
+    #index-footer {
         background-color: rgb(46, 32, 24);
         position: absolute;
         bottom: 0;
@@ -873,9 +816,9 @@
         width: 45%;
     }
 
-    #h2-logo{
+    /* #h2-logo{
         font-size: 14px;
-    }
+    } */
 
 /*   FACILITIES   */
 /*   CLASSES   */
@@ -1004,6 +947,12 @@
     #index-div li {
         font-size: 20px;
     }
+
+    #index-footer h2{
+        font-size: 15px;
+        line-height: 8px;  
+        padding-top: 5px;  
+    }     
 
 /*   FACILITIES 920  */
 /*   CLASSES  920  */
