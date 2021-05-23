@@ -127,24 +127,7 @@
         width: 80%;
     }    
 
-    footer {
-        /* font-family: "IBM Plex Sans", sans-serif;
-        height: 100px;
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        position: fixed;
-        bottom: 0;
-        padding: 0;
-        letter-spacing: 1.5px;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 15px;
-        line-height: 5px;
-        color: white; */
-
-
-        
+    footer {       
         flex-shrink: 0;
         width: 100%;
         height: 100px;
@@ -302,7 +285,7 @@
         min-height: 100%;
     }     */
 
-    #facilities2-image{
+    #facilities-image{
         background-image: url('../images/facilities.jpeg');
         width:100%;
         margin: 0 auto;
@@ -310,12 +293,12 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        opacity: 0.9;  
+        opacity: 0.9; 
+        height: 100%; 
+    }
 
-      }
 
-
-    .facilities2-divs{
+    .facilities-divs{
         /* border: solid red; */
         background-color: white;
         width: 100%;
@@ -378,6 +361,7 @@
         font-size: 1.6vw;
         text-align: center;
         font-family: "IBM Plex Sans", sans-serif;
+        color: black;
     
     }
     
@@ -438,6 +422,13 @@
     footer#facilities-footer {
         background-color: rgb(34, 71, 27);
     }
+
+    #facilities-footer h2{
+        font-size: 20px;
+        color: white;
+        line-height: 10px;
+        padding-top: 0;
+    }      
 
 /*  ---------------------------------  CLASSES  -----------------------------------------  */
 
@@ -811,15 +802,6 @@
     } 
 
 /*   INDEX   */
-
-    #index-div {
-        width: 45%;
-    }
-
-    /* #h2-logo{
-        font-size: 14px;
-    } */
-
 /*   FACILITIES   */
 /*   CLASSES   */
 /*   MEMBERSHIP   */
@@ -887,15 +869,6 @@
 
 /*   OVERALL 1050  */
 /*   INDEX  1050 */
-
-    #index-div {
-        width: 50%;
-    }
-
-    /* #index-image h1 {
-        font-size: 380%;  
-    } */
-
 /*   FACILITIES 1050  */
 
     .list-box li{
@@ -935,18 +908,6 @@
     }
 
 /*   INDEX  920 */
-
-    .spacer-div{
-        height: 40px;
-    }
-
-    #index-div {
-        width:55%;
-    }
-
-    #index-div li {
-        font-size: 20px;
-    }
 
     #index-footer h2{
         font-size: 15px;
@@ -1022,19 +983,20 @@
         font-size: 8px;
     }
 
-/*   INDEX  800 */
+/*   INDEX  800  */
 
-    /* #index-image h1{
-        font-size: 310%;
-    } */
+    #index-animation-div{
+        width: 55%;
+        border: solid yellow;
+    }
 
-    #index-list li{
-        font-size: 20px;
+    #index-animation-div li{
+        font-size: 2.3vw;
     }
 
 /*   FACILITIES 800  */
 
-    .facilities2-divs{
+    .facilities-divs{
         height: 300px;
     }
 
@@ -1067,9 +1029,9 @@
         width: 100%;
         margin: auto;
         height: 250px;
-        position:relative;
+        /* position:relative;
         padding:0;
-        bottom: 0; 
+        bottom: 0;  */
     }
 
     .footer-1{
@@ -1089,26 +1051,7 @@
         width: 100%;  
     }
 
-/*  INDEX  700  */
-
-    #index-image{
-        height: 100%;
-    }
-
-    #index-footer{
-        position:sticky;
-        bottom: 0;
-    }
-
-    /* #index-image h1{
-        font-size: 300%;
-        padding-top: 130px;
-    } */
-
-    #index-div {
-        width: 70%; 
-    }
-
+/*  INDEX  700  */   
 /*    FACILITIES  700     */
 
     .list-box li{
@@ -1116,8 +1059,13 @@
         line-height: 3vh;
     }
 
-    .facilities2-divs{
+    .facilities-divs{
         height: 250px;
+        margin-bottom: 70px; 
+    }
+
+    #facilities-content{
+        margin-top: 10%;
     }
 
 /*    CLASSES   700     */
@@ -1166,23 +1114,13 @@
     }
 
 /*   INDEX  620 */
-
-    #index-div {
-        width: 80%;
-    }
-
-    #index-image h1{
-        font-size: 250%;
-        padding-top: 220px;
-    } 
-
 /*   FACILITIES 620  */
 
     #facilities-content{   
         margin-top: 40%;
     }
 
-    .facilities2-divs{
+    .facilities-divs{
         margin-bottom: 50px;
     }
 
@@ -1242,18 +1180,7 @@
 @media screen and (max-width: 520px){
     
 /*  OVERALL  520   */
- /*   INDEX  520 */
-
-    #index-image h1 {
-        top: -30px;
-        position: relative;
-        font-size: 35px;
-    }
-
-    #index-div li {
-        font-size: 14px;
-    }
-
+/*   INDEX  520 */
 /*   FACILITIES 520  */
 
     .list-box li{
@@ -1261,7 +1188,7 @@
         line-height: 2vh;
     }
 
-    .facilities2-divs{
+    .facilities-divs{
         height: 200px;
     }
 
@@ -1359,13 +1286,8 @@
         width: 20%;
     }
 
-    #index-div li {
-        font-size: 13px;
-        line-height: 15px;
-        text-align: left;
-        margin-left: 0;
-        padding-left: 0;
-    }
+   
+    
 
     #left-index-div li {
         text-indent: -35px;
@@ -1436,7 +1358,7 @@
         margin-top: 50%;
     }
 
-    .facilities2-divs{
+    .facilities-divs{
         height: 150px;
     }
 
@@ -1512,24 +1434,6 @@
   
 /*   OVERALL     */
 /*   INDEX     */
-
-
-    /* #index-image h1{
-        padding-top: 0;
-        position: relative;
-        top: 50px;
-        /* top: 50%; */
-        /* font-size: 40px;
-        border: solid green; */
-    
-
-    /* #index-div {
-        bottom: 10%;
-        height: 200px;
-        position: relative;
-        border: solid orange;
-    } */ 
-
 /*   FACILITIES   */
 /*   CLASSES     */
 /*   MEMBERSHIP     */
