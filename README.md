@@ -21,6 +21,7 @@ The footer appears on all pages, and displays top level information about the gy
 ## Main Features
 
 ### Navigation Bar
+![Navigation Bar](assets/images/readmeNav.jpg)
 The navigation is fixed to the top of the page, allowing the user to return to it at any time to navigate to another page.  All pages are displayed in the navigation bar.  
 
 The text is an appropriate size and there is adequate spacing between each page title to clearly see what the pages are.  
@@ -30,6 +31,7 @@ The active page has the page title a different colour to remind the user where t
 Lastly, for emphasis and to remind the user how to return to the front page, the Homepage title sits furthest to the left, as in first in the navigation bar, and has the branded logo for the gym. 
 
 ### Footer
+![Footer](assets/images/readmeFooter.jpg)
 The footer displays all important top level information about the gym.  It largely consists of contact information.
 
 Furthest to the left, similar to the navigation bar, sits the Dunkeld Fitness Center and logo, which can hyperlink back to the Homepage when clicked.  
@@ -39,6 +41,8 @@ The footer is responsive to different screen sizes.  In particular, for pages wh
 Lastly, the footer background colour changes with each page, to match the colour theme of the page and is thus more pleasing to the user. 
 
 ## Homepage
+
+![Homepage](assets/images/readmeHomepage.jpg)
 
 ### Main Image
 The main image on the front page displays the main gym room, to emphasise the ambiance and decor of the gym.  This image is important to get across to the user that the gym is a grown-up, professional, clean and attractive gym.   It is hoped this will separate this gym from chain gyms which have a cheaper, less sophisticated vibe.  The colour scheme is natural and attractive, as opposed to loud and gaudy.
@@ -56,6 +60,8 @@ The list is dynamic, with check-marks appearing next to each bullet point in a s
 
 ## Facilities
 
+![facilities](assets/images/readmeFacilities.jpg)
+
 ### Background Image
 The background image is full of natural light and colours, and is differentfrom the Homepage image, yet still pleasant.
 
@@ -69,10 +75,14 @@ The styling is very basic, with white background and black text, to contrast the
 ### Background Image
 The background image is very simple and minimalist.  It is a different colour scheme to the facilities background image to keep the user interested and engaged.  The timetable is the most important feature on the page, so the background image has to not draw attention away from the table. 
 
+![Timetable](assets/images/readmeTimetable.jpg)
+
 ### Timetable
 The timetable is basic and kept to only 4 columns.  It clearly displays which days and times classes run, how long the classes are, the activity itself and how many people the user will be in the class with.  
 
 Importantly, users need to know how to book themselves onto the classes, so the top header on this page explains that the only way to book is over the phone.  The footer on this page is kept fixed on the bottom of the screen to keep the phone number in plain site for the user, so they are not required to navigate to another page to find the number. 
+
+![Classes Gallery](assets/images/readmeGallery.jpg)
 
 ### Gallery
 The gallery is an attractive feature to display what the classes run at the gym are like, and to give the user an idea of what to expect if they joined one. It is a masonry layout to give flexibility to additional images as they are added, and creates an interesting user experience.

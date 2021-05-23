@@ -79,22 +79,6 @@
         position: relative;
     }
 
-    /* div h1 {
-        font-family: "IBM Plex Sans", sans-serif; 
-        color: black;
-        font-size: 25px;
-        letter-spacing: 4px;
-        text-align: center;
-        text-transform: uppercase;
-    } */
-
-    /* div h2 {
-        font-size: 15px;
-        font-family: "IBM Plex Sans", sans-serif;
-        color: black;
-        margin: 0 auto;
-    } */
-
     p {
         font-size: 15px;
     }
@@ -228,7 +212,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        opacity: 0.9;  
+        /* opacity: 0.9;   */
     } 
 
     #index-footer {
@@ -432,8 +416,10 @@
 
 /*  ---------------------------------  CLASSES  -----------------------------------------  */
 
-    footer#classes-footer{
+    #classes-footer{
         background-color: rgb(77, 31, 31);
+        position: fixed;
+        bottom: 0;
     }
 
     .main-image#classes-image{
@@ -445,6 +431,13 @@
     footer.membership-footer {
         background-color: rgb(41, 41, 43);
     }
+
+    #classes-footer h2{
+        font-size: 20px;
+        color: white;
+        line-height: 10px;
+        padding-top: 0;
+    }   
 
     .tables{
         font-family: "IBM Plex Sans", sans-serif; 
@@ -475,7 +468,8 @@
         column-gap: 0;
         width: 85%;
         margin: auto;
-        padding-bottom: 350px;
+        margin-top: 50px;
+        /* margin-bottom: 400px; */
     }
     
     #gallery > img {
@@ -530,6 +524,7 @@
         font-family: Roboto, sans-serif;
         font-size: 30px;
         margin: 0 auto;
+        margin-top: 50px;
         text-align: center;
         color:rgb(26, 26, 26); 
     }
@@ -565,9 +560,7 @@
         height: 900px;
         /* background-color: white; */
         margin: 0 auto;
-        padding-top: 30px;
-        
-        
+        padding-top: 30px;  
     }
     
     #membership-form{
@@ -579,7 +572,6 @@
         color: rgb(58, 57, 57);
         /* line-height: 60px; */
         border: solid black 1px;
-    
     }
 
     #form-h2{
@@ -622,6 +614,13 @@
     
     label {
         font-size: 15px;
+    }
+
+    .membership-footer h2{
+        font-size: 20px;
+        color: white;
+        line-height: 10px;
+        padding-top: 0;
     }
 
 /*  -------------------------------------  CONTACT PAGE  --------------------------------------  */
@@ -671,6 +670,18 @@
         top: 150px;
         position: relative;
         display: flex;
+    }
+
+    #contact-info h1{
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 1.5vw;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #contact-info h2{
+        color: black;
+        font-size: 1vw;
     }
 
     #map{
@@ -1352,6 +1363,25 @@
 
 /*   OVERALL  380   */
 /*   INDEX  380 */
+
+    #index-image{
+        height: 1500px;
+    }
+
+    #index-content{
+        margin-top: 80px;
+        margin-bottom: 150px;
+    }
+
+    #index-footer{
+        position: relative;
+        bottom: 0;
+    }
+
+    #index-animation-div{
+        width: 65%;
+    }
+
 /*   FACILITIES 380  */
 
     #facilities-content{
@@ -1402,7 +1432,6 @@
         height: 50%;
     }
 
-    
     #map{
         height: 50%;
     }
