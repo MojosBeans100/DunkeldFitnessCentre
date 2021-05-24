@@ -355,55 +355,8 @@
         align-items: vertical;
         display: flex;
     }
-
-
-    
-/* 
-    .facilities-divs{
-        position: relative;
-        top: 15vh;
-        border: 4px solid white;
-        background-color: white;
-        position: relative;
-        height: 50vh;
-        width: 80%;
-        margin: 0 auto;    
-    }
-    
-    .facilities-divs h2{
-        font-size: 2vw;
-    }
-    
-    .spacer-div-var{
-        height: 15vh;
-    }
-    
-    .leftpic{
-        width:50%;
-        height:100%;
-        float:left;
-    }
-    
-    .rightpic{
-        width:50%;
-        height:100%;
-        float:right;
-    }
       
-    .right-text, .left-text{
-        position: relative;
-        text-align: center;
-        font-size: 22px;
-        list-style-type: none;
-        font-family: "IBM Plex Sans", sans-serif;
-    }
-
-    .right-text li {
-        line-height: 40px;
-        
-    } */
-      
-    footer#facilities-footer {
+    #facilities-footer {
         background-color: rgb(34, 71, 27);
     }
 
@@ -627,8 +580,7 @@
 
     .main-image#contact-image{
         background-image: url('../images/contactbackground.jpg');
-        min-height: 100vh;
-        
+        min-height: 100vh;        
     }
 
     #contact-nav-menu {
@@ -661,25 +613,38 @@
         color: grey; 
     } 
 
-    #contact-info{
+    #contact-content{
         height: 600px;
         width: 70%;
         margin: 0 auto;
         border: solid 1px black;
         background-color: white;
-        top: 150px;
+        margin-top: 7%;
         position: relative;
         display: flex;
     }
 
-    #contact-info h1{
+    #contact-footer {
+        background-color: rgb(46, 32, 24);
+        position: absolute;
+        bottom: 0;
+    }
+
+    #contact-footer h2{
+        font-size: 20px;
+        color: white;
+        line-height: 10px;
+        padding-top: 0;
+    }
+
+    #contact-content h1{
         font-family: "IBM Plex Sans", sans-serif;
         font-size: 1.5vw;
         text-align: center;
         text-transform: uppercase;
     }
 
-    #contact-info h2{
+    #contact-content h2{
         color: black;
         font-size: 1vw;
     }
@@ -784,11 +749,6 @@
 
 /*   MEMBERSHIP  1640  */
 /*   ABOUT US   1640  */
-
-    #contact-info{
-        top: 100px;
-    }
-
 /*  1640 END   */   
 }
 
@@ -869,7 +829,8 @@
         font-size: 20px; 
     }
 
-    #contact-info{
+    #contact-content{
+        margin-top: 10%;
         width: 85%;
     }
 
@@ -949,11 +910,22 @@
 
 /*   ABOUT US   920  */   
 
-    #contact-info {
+    #contact-content {
         display: block;
         width: 80%;
-        height: 1200px;
+        height: 1100px;
+        margin-bottom: 5%;
+        margin-top: 15%;
     }
+
+    #contact-content h1{
+        font-size: 2vw;
+    }
+
+    #contact-content h2{
+        font-size: 2vw;
+    }
+
 
     #map{
         height: 50%;
@@ -970,10 +942,14 @@
         height: 50%;
     }
 
-    .main-image#contact-image{
-        min-height: 1450px;
+    #contact-footer{
+        position: relative;
     }
- 
+
+    #contact-image{
+        height: auto;
+    } 
+  
 /*  920 END   */
 }
 
@@ -998,7 +974,6 @@
 
     #index-animation-div{
         width: 55%;
-        border: solid yellow;
     }
 
     #index-animation-div li{
@@ -1113,6 +1088,11 @@
     
 /*   ABOUT US  700  */ 
 
+    #contact-div{
+        left: 0;
+    }
+
+
 }
 
 @media screen and (max-width: 620px){
@@ -1172,17 +1152,13 @@
 
 /*   ABOUT US   620  */
 
-    #contact-div {
-        left: 0;
-    }
-
     #contact-nav-menu {
         display: block;
         margin: auto;
     }
 
-    #contact-info{
-        top: 220px;
+    #contact-content{
+        margin-top: 40%;
     }
 
 /*  END 620   */
@@ -1246,6 +1222,10 @@
     }
 
 /*   ABOUT US   520  */
+
+    #contact-content{
+        margin-top: 55%;
+    }
 
     #map{
         height: 40%;
@@ -1412,6 +1392,10 @@
 
 /*   ABOUT US   380  */    
     
+    #contact-content{
+        margin-top: 60%;
+    }
+
     #contact-div h3 {
         font-size: 13px
     }
@@ -1425,7 +1409,7 @@
     }
 
     #contact-info{
-        height: 1000px;
+        height: 800px;
     }
 
     #telephone-email{
