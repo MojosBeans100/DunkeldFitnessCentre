@@ -1,6 +1,7 @@
 # DunkeldFitnessCentre
 First Milestone Project: a site to show facilities of a fictional gym
 
+![Responsive](assets/images/readmeResponsive.jpg)
 
 The website details information about a gym which offers all standard facilities of a gym, workout classes, and a monthly or annual membership.  
 
@@ -93,12 +94,18 @@ The gallery is an attractive feature to display what the classes run at the gym 
 The background image is again basic and contrasts the previous page in terms of colour, this one a steely grey.  
 
 ### Offers
+
+![Offers](assets/images/readmeMembership.jpg)
+
 This is another basic list of incentives to join this gym and outline the most important information about what you get with the membership - which facilities are available for use, inclusive use of classes, and information about the contract and prices. 
 
 ### Prices 
 There are only two options - non-student and student - to keep things simple.  They emphasise the point above in the incentives list about annual discount on membership.
 
 ### Form
+
+![Form](assets/images/readmeForm.jpg)
+
 The second part of this page is a membership form, with a plain grey background to match the colour scheme of the above background image.  This is the only page with two different backgrounds - as this is the only page with something the user has to *do* (fill in the form) as opposed to just *read*. 
 
 The form styling is kept intuitive and short, with only basic personal information.  The process is also kept clear at the top of the form, as it clearly implies that if the user fills in the form, a member of the gym staff will get back to the user personally to get more info and confirm the membership. 
@@ -107,6 +114,8 @@ It is hoped this emphasises again that this gym stands out from other big, cheap
 
 
 ## About Us
+
+![Contact](assets/images/readmeContact.jpg)
 
 ### Contact Information
 This section reveals to the user all ways to get in contact with the gym - email, phone, and social media.  The social media icons increase in size with mouse hover, to emphasise that they are links. 
