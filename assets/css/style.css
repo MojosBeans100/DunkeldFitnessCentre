@@ -39,17 +39,15 @@
       
     .nav-menu a {
         text-decoration: none;
-        color: #ffff; 
     }
     
-    .nav-menu #yourehere {
-        color: grey;
+    /* .nav-menu #yourehere {
+        color: rgb(70, 70, 70);
         font-size:28px;
-    }
+    } */
     
     .nav-menu a:hover {
         text-decoration: none;
-        color: grey; 
     } 
 
     .content{
@@ -130,10 +128,22 @@
     
 /*  ------------------------------------ INDEX  -----------------------------------------  */
 
-    .main-image#index-image{
+    #index-image{
         background-image: url('../images/main-image.jpg');
         height:100vh;
         max-width: 100%;
+    }
+
+    #index-nav {
+        color: white;
+    }
+
+    #index-nav a:hover{
+        color:rgb(158, 158, 158);
+    }
+
+    .nav-menu #index-youre-here{
+        color:rgb(158, 158, 158);
     }
 
     #index-content{
@@ -176,10 +186,10 @@
         text-align: center;
         letter-spacing: 5px;
         text-transform: none;
-        text-shadow:    -1px -1px 0 rgb(54, 2, 2),
-		                 1px -1px 0 rgb(54, 2, 2),
-		                 -1px 1px 0 rgb(54, 2, 2),
-		                 1px 1px 0 rgb(54, 2, 2);
+        text-shadow:    -1px -1px 0 rgba(54, 2, 2, 0.726),
+		                 1px -1px 0 rgba(54, 2, 2, 0.726),
+		                 -1px 1px 0 rgba(54, 2, 2, 0.726),
+		                 1px 1px 0 rgba(54, 2, 2, 0.726);
     } 
 
     #index-footer h2{
@@ -258,6 +268,18 @@
         background-size: cover;
         opacity: 0.9; 
         height: 100%; 
+    }
+
+    #facilities-nav {
+        color: white;
+    }
+
+    #facilities-nav a:hover{
+        color:rgb(151, 151, 151);
+    }
+
+    .nav-menu #facilities-youre-here{
+        color:black;
     }
 
     .facilities-divs{
@@ -359,6 +381,18 @@
         min-height: 100%;
     }
 
+    #classes-nav {
+        color: white;
+    }
+
+    #classes-nav a:hover{
+        color:rgb(110, 69, 69);
+    }
+
+    .nav-menu #classes-youre-here{
+        color:black;
+    }
+
     /*  classes-footer called up in About Us  */
     footer.membership-footer {
         background-color: rgb(41, 41, 43);
@@ -443,7 +477,19 @@
 
     #membership-image{
         background-image: url('../images/membership.jpeg');
-        height: 700px;
+        height: 1200px;
+    }
+
+    #membership-nav {
+        color: white;
+    }
+
+    #membership-nav a:hover{
+        color:rgb(25, 45, 61);
+    }
+
+    .nav-menu #membership-youre-here{
+        color:black;
     }    
 
     .membership-h2 {
@@ -548,8 +594,7 @@
     
     #narrow-div{
         width: 70%;
-        margin: auto;
-        
+        margin: auto; 
     }
     
     label {
@@ -570,7 +615,7 @@
         min-height: 100vh;        
     }
 
-    #contact-nav-menu {
+    /* #contact-nav-menu {
         font-family: "IBM Plex Sans", sans-serif;
         width: 90%;
         margin: auto;
@@ -583,21 +628,18 @@
         font-size: 25px;
         display: flex;
         justify-content: space-between;
+    } */
+
+    #contact-nav {
+        color: rgb(53, 53, 53);
     }
 
-    #contact-nav-menu a {
-        text-decoration: none;
-        color:rgb(65, 70, 94); 
+    #contact-nav a:hover{
+        color:rgb(184, 184, 184);
     }
 
-    #contact-nav-menu #yourehere {
-        color:rgb(224, 216, 210);
-        font-size:28px;
-    }
-
-    #contact-nav-menu a:hover {
-        text-decoration: none;
-        color: grey; 
+    #contact-youre-here{
+        color:rgb(167, 167, 167);
     } 
 
     #contact-content{
@@ -615,6 +657,7 @@
         background-color: rgb(46, 32, 24);
         position: relative;
         bottom: 0;
+        margin-top: 50px;
     }
 
     #contact-footer h2{
@@ -622,6 +665,7 @@
         color: white;
         line-height: 10px;
         padding-top: 0;
+        
     }
 
     #contact-content h1{
@@ -935,7 +979,6 @@
         font-size: 2vw;
     }
 
-
     #map{
         height: 50%;
         width:100%; 
@@ -952,6 +995,7 @@
     }
 
     #contact-footer{
+        
         position: relative;
     }
 
