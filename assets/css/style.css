@@ -732,7 +732,7 @@
 /*   CLASSES  1640  */
 
     #classes-h2{
-        padding-top: 80px;
+        padding-top: 50px;
     }
 
     #pics-below{
@@ -888,6 +888,10 @@
 
     .timetable{
         font-size: 14px;
+    }
+
+    #classes-footer h2{
+        font-size: 15px;
     }
 
 /*   MEMBERSHIP  920  */
@@ -1147,7 +1151,7 @@ html {border: solid yellow;}
     }
 
     #classes-h2{
-        padding-top: 200px;
+        padding-top: 150px;
     }
 
     #pics-below{
