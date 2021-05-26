@@ -112,7 +112,7 @@ Most images are from Pexels (see Credits)
 
 # Features
 
-The website has the follwing features:
+The website has the following features:
 
 ## All pages
 
@@ -276,33 +276,72 @@ The site was tested
 ### As a returning user: 
 
 * I would like to book onto one of the upcoming classes this week
-    > When I'm on the Classes page, the footer which displays the telephone number is fixed in view. It clearly states at the top of the page that classes are to be booked over the phone. 
+    > When I'm on the Classes page, the footer which displays the telephone number is fixed in view. It clearly states at the top of the page that classes are to be booked over the phone.
+
 * I want to get in contact about a problem with my membership
     > All contact information is clear in the footer and About Us page. 
+
 * I want to find their social media links so I can join their instagram stories
     > On the About Us page, there is a link to the gym's social media pages, which open in a separate tab.
 
-## Limitations
+## Limitations of Project
 
 ### Membership Form
 The membership form does not do anything or lead to anywhere, aside from clearing itself of info after submission. 
 
 ### Social Media Links
-The social media links simply link to the site eg Facebook, as opposed to a specific page. 
+The social media links simply link to the general site eg Facebook, as opposed to a specific page. 
+
+### T&Cs
+The terms and conditions link on the membership form does not link to a document. 
 
 [Back to Table of contents](#table-of-contents)
 
 ## Unfixed Bugs
 
 # Deployment
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Master Branch
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+* The live link can be found here  - LATEST LINK
 
 # Credits
 ## Content
 All content was written by the author.  
 
+The ReadMe format was inspired by the template from Code Institute ![Code Institute ReadMe](https://github.com/Code-Institute-Solutions/readme-template) as well as ![Annie's Portfolio Website](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md).
+
 ## Media 
 Most media images were sourced from Pexels website.
 
-## ReadMe
+Credits to: 
 
-The ReadMe format was inspired by ...
+* Caresse Resort and Spa ![Main Image](https://www.marriott.com/hotels/hotel-information/fitness-center/details/bjvlc-caresse-a-luxury-collection-resort-and-spa-bodrum/5982778/)
+* @goumbik
+* @victorfreitas
+* @cottonbro
+* @elly-fairytale
+* @yan-krukov
+* @cliff-booth
+* @anastasia0shuraeva
+* @max-vakhtbovych
+* @andrea-piacquadio
+* @karolina-grabowska
+* @lukas
+* @william-choquette
+* @leon-ardho
+* @li-sun
+* @roman-davayposmotrim
+* @gustavo-fring
+* @pixabay
+
+
+
+
+
+
+
+
+
+
