@@ -407,12 +407,13 @@
         width: 85%;
         margin: auto;
         margin-top: 50px;
+        padding-bottom: 100px;
         /* margin-bottom: 400px; */
     }
     
     #gallery > img {
         width: 93%;
-        padding: 15px;      
+        padding: 12px;      
     }
       
     .timetable{
@@ -1062,6 +1063,7 @@
 
     #gallery {
         column-count: 2;
+        padding-bottom: 300px;
     }
 
 /*  MEMBERSHIP  700  */
