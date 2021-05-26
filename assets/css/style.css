@@ -12,7 +12,7 @@
         width: 100%;
         padding: 0;
         margin: 0;
-        height: 100vh;
+        /* height: 100vh; */
       }
 
     .wrapper{
@@ -901,6 +901,10 @@
 
 /*   MEMBERSHIP  920  */
 
+    #membership-image{
+        height: 600px;
+    }    
+
     .membership-h2{
         font-size: 22px;
     }
@@ -1078,21 +1082,29 @@
 /*  MEMBERSHIP  700  */
 
     #second-membership-section{
-        height: 900px;
+        height: 850px;   
     }
         
     #form-div{
         width: 90%;
     }
 
+    #membership-offers{
+        width: 80%;
+        margin:auto;
+        margin-top: 30px;
+        text-indent: -45px;
+    }
+
     footer.membership-footer
     {   display: block;
         width: 100%;
-        margin: auto;
+        /* margin: auto; */
         height: 250px;
         bottom: 0;
         position: relative;
         padding: 0;
+        /* border: solid yellow; */
     }
     
 /*   ABOUT US  700  */ 
@@ -1121,8 +1133,6 @@
 
 /*   INDEX  620 */
 
-body{border: solid red;}
-html {border: solid yellow;}
     #index-content{
         margin-top: 10%;
         /* height: 400px; */
@@ -1340,6 +1350,10 @@ html {border: solid yellow;}
     }
 
 /*   MEMBERSHIP  420  */
+
+    #membership-offers li{
+        font-size: 15px;
+    }
 
     #membership-form h4{
         font-size: 12px;
