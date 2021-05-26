@@ -391,11 +391,6 @@
         padding: 0;
     }
 
-    #classes-link{
-        text-decoration: none;
-        color:rgb(26, 26, 26);
-    }
-
     #gallery {
         /* top: 50%; */
         position: relative;
@@ -452,9 +447,9 @@
 
 /*  ------------------------------------  MEMBERSHIP  -------------------------------------------   */
 
-    .main-image#membership-image{
+    #membership-image{
         background-image: url('../images/membership.jpeg');
-        height: 600px;
+        height: 700px;
     }    
 
     .membership-h2 {
@@ -477,6 +472,11 @@
         color: rgb(56, 56, 56);  
     }
 
+    #classes-link{
+        text-decoration: none;
+        color:rgb(0, 0, 0);
+    }
+
     #membership-list {
         color: rgb(56, 56, 56);
         text-align: center;
@@ -486,7 +486,7 @@
         height: 1000px;
         width: 100%;
         background-color:rgb(158, 158, 158); 
-        opacity: 0.5;
+        /* opacity: 0.5; */
         margin-bottom: 0;
         padding-bottom: 0;
     }
@@ -510,13 +510,13 @@
         margin: 0 auto;
         width: 70%;
         background-color:white;
-        color: rgb(58, 57, 57);
+        color: rgb(0, 0, 0);
         /* line-height: 60px; */
         border: solid black 1px;
     }
 
     #form-h2{
-        color:rgb(56, 56, 56);
+        color: black;
         font-size: 30px;
     }
     
@@ -533,6 +533,11 @@
         font-size: 15px;
         text-transform: uppercase;
         letter-spacing: 3px;
+    }
+
+    #signup:hover{
+        background-color:rgb(25, 45, 61);
+        color: white;
     }
     
     #female #male {
