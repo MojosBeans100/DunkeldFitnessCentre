@@ -28,8 +28,9 @@ The website details information about a gym which offers all standard facilities
 - [Technology](#technology)
 - [Testing](#testing)
     - [Functionality testing](#functionality-testing)
+    - [Code Validation](#validator-testing)
     - [Compatibility testing](#compatibility-testing)
-    - [Code Validation](#code-validation)
+    - [Limitations of project](#limitations-of-project)
     - [User stories testing](#user-stories-testing)
     - [Issues found during site development](#issues-found-during-site-development)
     - [Performance testing](#performance-testing)
@@ -308,14 +309,14 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 # Credits
 ## Content
-All content was written by the author.  
+All website content was written by the author.  
 
 The ReadMe format was inspired by the template from Code Institute ![Code Institute ReadMe](https://github.com/Code-Institute-Solutions/readme-template) as well as ![Annie's Portfolio Website](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md).
 
 Some other gym and fitness websites which inspired the author for content and style:
-![Dunkeld House Hotel](https://www.dunkeldhousehotel.co.uk/)
-![Pure Gym](https://www.puregym.com/)
-![The Gym](https://www.thegymgroup.com/)
+* ![Dunkeld House Hotel](https://www.dunkeldhousehotel.co.uk/)
+* ![Pure Gym](https://www.puregym.com/)
+* ![The Gym](https://www.thegymgroup.com/)
 
 ## Media 
 Most media images were sourced from Pexels website.
@@ -343,7 +344,7 @@ Credits to:
 * @eternal-happiness
 
 
-
+[Back to Table of contents](#table-of-contents)
 
 
 
