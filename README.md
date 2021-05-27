@@ -1,7 +1,7 @@
 # Dunkeld Fitness Centre
 First Milestone Project: a site to show facilities of a fictional gym
 
-![Mock Up](assets/images/readmeResponsive.jpg)
+![Mock Up](assets/images/readmeResponsive.JPG)
 
 The website details information about a gym which offers all standard facilities of a gym, workout classes, and a monthly or annual membership.  
 
@@ -140,7 +140,7 @@ The active page has the page title a different colour to remind the user where t
 Lastly, for emphasis and to remind the user how to return to the front page, the Homepage title sits furthest to the left, as in first in the navigation bar, and has the branded logo for the gym. 
 
 ### Footer
-![Footer](assets/images/readmeFooter.jpg)
+![Footer](assets/images/readmeFooter.JPG)
 The footer displays all important top level information about the gym.  It largely consists of contact information.
 
 Furthest to the left, similar to the navigation bar, sits the Dunkeld Fitness Center and logo, which can hyperlink back to the Homepage when clicked.  
