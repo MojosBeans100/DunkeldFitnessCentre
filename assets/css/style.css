@@ -186,10 +186,10 @@
         text-align: center;
         letter-spacing: 5px;
         text-transform: none;
-        text-shadow:    -1px -1px 0 rgba(54, 2, 2, 0.726),
-		                 1px -1px 0 rgba(54, 2, 2, 0.726),
-		                 -1px 1px 0 rgba(54, 2, 2, 0.726),
-		                 1px 1px 0 rgba(54, 2, 2, 0.726);
+        text-shadow:    -1px -1px 0 rgb(145, 145, 145),
+		                 1px -1px 0 rgba(145, 145, 145),
+		                 -1px 1px 0 rgba(145, 145, 145),
+		                 1px 1px 0 rgba(145, 145, 145);
     } 
 
     #index-footer h2{

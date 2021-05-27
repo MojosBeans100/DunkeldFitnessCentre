@@ -131,7 +131,7 @@ The website has the following features:
 ## All pages
 
 ### Navigation Bar
-![Navigation Bar](assets/images/readmeNav.jpg)
+![Navigation Bar](assets/images/readmeNav.JPG)
 
 The navigation is fixed to the top of the page, allowing the user to return to it at any time to navigate to another page.  All pages are displayed in the navigation bar.  
 
@@ -150,7 +150,7 @@ The footer is responsive to different screen sizes.  In particular, for pages wh
 Lastly, the footer background colour changes with each page, to match the colour theme of the page and is thus more pleasing to the user. 
 
 ### Background Image
-![Homepage](assets/images/readmeHomepage.jpg)
+![Homepage](assets/images/readmeHomepage.JPG)
 
 There is a high resolution background image from Pexels on each page.  The navigation bar, footer, and content sit in front of this picture. The colour scheme is always natural and attractive, as opposed to loud and gaudy.
 
@@ -164,13 +164,16 @@ The incentive list on the front page draws attention to four main points which s
 
 ### Information Boxes
 
+![Facilities Info](assets/images/readmeFacilities.jpg)
+
 These five information boxes detail specifically what you should expect to have use of when you join the gym. The styling is very basic, with white background and black text, to contrast the busy background image.
 
 ## Classes
 
+## Timetable
+
 ![Timetable](assets/images/readmeTimetable.jpg)
 
-## Timetable
 The timetable on the Classes page is basic and kept to only 4 columns.  It clearly displays which days and times classes run, how long the classes are, the activity itself and how many people the user will be in the class with.  
 
 Importantly, users need to know how to book themselves onto the classes, so the top header on this page explains that the only way to book is over the phone.  The footer on this page is kept fixed on the bottom of the screen to keep the phone number in plain site for the user, so they are not required to navigate to another page to find the number. 
