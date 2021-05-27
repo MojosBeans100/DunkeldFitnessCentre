@@ -32,8 +32,6 @@ The website details information about a gym which offers all standard facilities
     - [Compatibility testing](#compatibility-testing)
     - [Limitations of project](#limitations-of-project)
     - [User stories testing](#user-stories-testing)
-    - [Issues found during site development](#issues-found-during-site-development)
-    - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Screenshots](#screenshots)
@@ -260,9 +258,11 @@ The code was passed through the official CSS *Jigsaw validator* with no errors r
 
 ## Compatibility testing
 
-The site was tested on all browser sizes, to ensure the website maintained a structured layout for all screen sizes.
+The site was tested on all browser sizes during development, to ensure the website maintained a structured layout for all screen sizes.  
 
-## User stories 
+Finally the code was passed through [Am I Responsive](http://ami.responsivedesign.is/) to ensure all pages looked good on different sizes. 
+
+## User stories testing  
 
 ### As a business owner:
 
