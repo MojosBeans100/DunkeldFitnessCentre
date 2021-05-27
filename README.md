@@ -87,7 +87,20 @@ The website is designed to be responsive on all devices; viewing the website on 
 
 ## Wireframes
 
+### Homepage Design
+![Homepage Design](assets/images/WireframesHomepage.JPG)
 
+### Facilities Design 
+![Facilities Design](assets/images/WireframesFacilities.JPG)
+
+### Classes Design
+![Classes Design](assets/images/WireframesClasses.JPG)
+
+### Membership Design
+![Membership Design](assets/images/WireframesMembership.JPG)
+
+### Contact Us Design
+![Contact Us Design](assets/images/WireFramesContact.JPG)
 
 ## Surface
 
@@ -99,11 +112,11 @@ The website largely uses IBM Plex Sans, with some headers as Roboto, and sans-se
 
 The colour scheme for each page is kept consistent and chosen to complement the background image, but does vary throughout the website to keep the user engaged. Because of this variation, other features such as the navigation bar and footer are kept consistent, to ensure the user they are on the same website.  The main colours used are:
 
-Homepage  white and rgb(46, 32, 24) 
-Facilities rgb(34, 71, 27) 
-Classes rgb(77, 31, 3), rgb(41, 41, 43), rgb(158, 158, 158)
-Membership rgb(56, 56, 56), rgb(158, 158, 158), rgb(58, 57, 57)
-About Us rgb(65, 70, 94), rgb(224, 216, 210)
+* Homepage:  white and rgb(46, 32, 24) 
+* Facilities: rgb(34, 71, 27) 
+* Classes: rgb(77, 31, 3), rgb(41, 41, 43), rgb(158, 158, 158)
+* Membership: rgb(56, 56, 56), rgb(158, 158, 158), rgb(58, 57, 57)
+* About Us: rgb(65, 70, 94), rgb(224, 216, 210)
 
 ### Images
 

@@ -4,14 +4,16 @@
     
     html {
         display: flex;
-        flex-direction: column;   
+        flex-direction: column;  
+        border: solid yellow; 
     }
 
     body {
         width: 100%;
         padding: 0;
         margin: 0;
-        /* height: 100vh; */
+        border: solid red;
+        min-height: 100vh; 
       }
 
     .wrapper{
@@ -130,8 +132,8 @@
 
     #index-image{
         background-image: url('../images/main-image.jpg');
-        height:100vh;
-        max-width: 100%;
+        height:100%;
+        /* max-width: 100%; */
     }
 
     #index-nav {
@@ -149,7 +151,7 @@
     #index-content{
         font-family: Roboto, sans-serif;
         margin: auto;
-        top: 20%;
+        margin-top: 10%;
         position: relative;   
     }
 
@@ -199,6 +201,10 @@
         padding-top: 0;
     }      
 
+    .spacer{
+        height: 200px;
+    }
+
     .main-image {
         width:100%;
         margin: 0 auto;
@@ -211,7 +217,7 @@
 
     #index-footer {
         background-color: rgb(46, 32, 24);
-        position: absolute;
+        position:fixed;
         bottom: 0;
         padding-bottom: 0;
         margin-bottom: 0;
@@ -648,7 +654,7 @@
         margin: 0 auto;
         border: solid 1px black;
         background-color: white;
-        margin-top: 7%;
+        margin-top: 6%;
         position: relative;
         display: flex;
     }
@@ -657,15 +663,14 @@
         background-color: rgb(46, 32, 24);
         position: relative;
         bottom: 0;
-        margin-top: 50px;
+        margin-top: 90px;
     }
 
     #contact-footer h2{
         font-size: 20px;
         color: white;
         line-height: 10px;
-        padding-top: 0;
-        
+        padding-top: 0;   
     }
 
     #contact-content h1{
@@ -1099,7 +1104,14 @@
 
     #index-footer{
         position: relative;
-        margin-top: 200px;
+        /* margin-top: 200px; */
+        bottom: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    #index-content{
+        margin-top: 20%;
     }
 
 /*  FACILITIES  700  */
@@ -1179,7 +1191,7 @@
 /*   INDEX  620 */
 
     #index-content{
-        margin-top: 10%;
+        margin-top: 30%;
         /* height: 400px; */
     }
 
@@ -1261,6 +1273,10 @@
     #index-animation-div li{
         font-size: 3vw;
         line-height: 3vh;
+    }
+
+    #index-content{
+        margin-top: 40%;
     }
 
 /*   FACILITIES 520  */
@@ -1377,6 +1393,10 @@
         text-align: center;
     }
 
+    #index-content{
+        margin-top: 50%;
+    }
+
 /*   FACILITIES 420  */
 
     .list-box li{
@@ -1444,10 +1464,10 @@
 /*   OVERALL  380   */
 /*   INDEX  380 */
 
-    #index-content{
+    /* #index-content{
         width: 95%;
         margin-top: 80px;
-    } 
+    }  */
 
 /*   FACILITIES 380  */
 
