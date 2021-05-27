@@ -25,7 +25,7 @@ The website details information about a gym which offers all standard facilities
     - [Membership](#membership)
     - [About Us](#about-us)
     - [Features Left to Implement](#features-left-to-implement)
-- [Technology](#technology)
+- [Technology](#technologies-used)
 - [Testing](#testing)
     - [Functionality testing](#functionality-testing)
     - [Code Validation](#validator-testing)
@@ -248,6 +248,8 @@ as a development hosting platform
 
 ## Functionality Testing
 
+I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
+
 ## Validator Testing
 
 ### HTML Testing
@@ -258,7 +260,7 @@ The code was passed through the official CSS *Jigsaw validator* with no errors r
 
 ## Compatibility testing
 
-The site was tested 
+The site was tested on all browser sizes, to ensure the website maintained a structured layout for all screen sizes.
 
 ## User stories 
 
@@ -316,6 +318,12 @@ The terms and conditions link on the membership form does not link to a document
 
 ## Unfixed Bugs
 
+### Footer
+
+The footer caused problems on some pages staying at the bottom of the page.  Some pages are only 1 screen size - for example Homepage and About Us.  Whereas the others have more content and therefore require scrolling.  In larger screen sizes it was desirable for the footer to remain fixed in position, but when reduced to smaller sizes and the footer changes to a taller column layout, it is preferred that the footer is hidden at the bottom and requires scrolling, so as not to take up the whole page.  
+
+This idea in practice took some fiddling, and ultimately on a few pages, a fixed height "spacer" div was placed so keep the footer where it needed to be.  
+
 # Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab
@@ -327,19 +335,19 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 ## Content
 All website content was written by the author.  
 
-The ReadMe format was inspired by the template from Code Institute ![Code Institute ReadMe](https://github.com/Code-Institute-Solutions/readme-template) as well as ![Annie's Portfolio Website](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md).
+The ReadMe format was inspired by the template from Code Institute [Code Institute ReadMe](https://github.com/Code-Institute-Solutions/readme-template) as well as [Annie's Portfolio Website](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md).
 
 Some other gym and fitness websites which inspired the author for content and style:
-* ![Dunkeld House Hotel](https://www.dunkeldhousehotel.co.uk/)
-* ![Pure Gym](https://www.puregym.com/)
-* ![The Gym](https://www.thegymgroup.com/)
+* [Dunkeld House Hotel](https://www.dunkeldhousehotel.co.uk/)
+* [Pure Gym](https://www.puregym.com/)
+* [The Gym](https://www.thegymgroup.com/)
 
 ## Media 
-Most media images were sourced from Pexels website.
+Most media images were sourced from [Pexels](https://www.pexels.com/) website.
 
 Credits to: 
 
-* Caresse Resort and Spa ![Main Image](https://www.marriott.com/hotels/hotel-information/fitness-center/details/bjvlc-caresse-a-luxury-collection-resort-and-spa-bodrum/5982778/)
+* Caresse Resort and Spa [Main Image](https://www.marriott.com/hotels/hotel-information/fitness-center/details/bjvlc-caresse-a-luxury-collection-resort-and-spa-bodrum/5982778/)
 * @goumbik
 * @victorfreitas
 * @cottonbro
