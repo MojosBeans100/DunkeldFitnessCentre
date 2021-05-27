@@ -357,7 +357,7 @@
     .not-header-div{
         height: 80%;
         /* border: solid orange; */
-        align-items: vertical;
+        /* align-items: vertical; */
         display: flex;
     }
       
