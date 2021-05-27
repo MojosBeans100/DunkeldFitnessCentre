@@ -5,14 +5,12 @@
     html {
         display: flex;
         flex-direction: column;  
-        border: solid yellow; 
     }
 
     body {
         width: 100%;
         padding: 0;
         margin: 0;
-        border: solid red;
         min-height: 100vh; 
       }
 
@@ -1117,8 +1115,7 @@
 /*  FACILITIES  700  */
 
     .facilities-divs{
-        height: 250px;
-        margin-bottom: 70px; 
+        height: 250px; 
     }
 
     #facilities-content{
@@ -1202,7 +1199,7 @@
     }
 
     .facilities-divs{
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .list-box li{
@@ -1464,15 +1461,14 @@
 /*   OVERALL  380   */
 /*   INDEX  380 */
 
-    /* #index-content{
-        width: 95%;
-        margin-top: 80px;
-    }  */
+    #index-content{
+      margin-top: 60%;
+    } 
 
 /*   FACILITIES 380  */
 
     #facilities-content{
-        margin-top: 50%;
+        margin-top: 55%;
     }
 
     .facilities-divs{
