@@ -481,7 +481,7 @@
 
     #membership-image{
         background-image: url('../images/membership.jpeg');
-        height: 1200px;
+        height: 1000px;
     }
 
     #membership-nav {
@@ -938,7 +938,7 @@
 /*   MEMBERSHIP  920  */
 
     #membership-image{
-        height: 600px;
+        height: 800px;
     }    
 
     .membership-h2{
@@ -1222,8 +1222,8 @@
         position: relative;
     }
 
-    .main-image#membership-image{
-        height: 700px;
+    #membership-image{
+        height: 800px;
     }
 
     .list li {
