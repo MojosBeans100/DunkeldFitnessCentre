@@ -153,8 +153,15 @@
         position: relative;   
     }
 
+    #index-intro-div{
+        width: 80%;
+        height: 20%;
+        background-color: rgb(46, 32, 24);
+        margin: auto;
+
+    }
+
     #index-animation-div{
-        /* height: 30vh; */
         width: 40%;
         margin: auto;
         background-color: rgb(46, 32, 24);
