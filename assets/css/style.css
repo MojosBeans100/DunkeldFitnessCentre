@@ -588,8 +588,12 @@
         margin: auto;
     }
     
-    span {
+    #t-and-c {
         color: green;
+    }
+
+    #underline{
+        text-decoration: underline;
     }
      
     .form-spacer-div{
@@ -938,7 +942,7 @@
 /*   MEMBERSHIP  920  */
 
     #membership-image{
-        height: 800px;
+        height: 900px;
     }    
 
     .membership-h2{
@@ -951,6 +955,10 @@
 
     .membership-footer h2{
         font-size: 15px;
+    }
+
+    #form-div{
+        width: 90%;
     }
 
 /*   ABOUT US   920  */   
@@ -1140,8 +1148,8 @@
         text-indent: -45px;
     }
 
-    footer.membership-footer
-    {   display: block;
+    .membership-footer{
+        display: block;
         width: 100%;
         /* margin: auto; */
         height: 250px;
@@ -1223,7 +1231,7 @@
     }
 
     #membership-image{
-        height: 800px;
+        height: 1000px;
     }
 
     .list li {
@@ -1306,11 +1314,16 @@
 
 /*   MEMBERSHIP  520  */
 
+    #form-div{
+        width: 98%;
+    }
+
     #membership-form{
+        width: 95%;
         font-size: 15px;
     }
 
-    .membership-offers, .list li, .membershipcontent h2{
+    #membership-offers, .list li, .membershipcontent h2{
         font-size: 15px;
     }
 
