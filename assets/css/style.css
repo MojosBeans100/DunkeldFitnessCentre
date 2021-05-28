@@ -916,7 +916,11 @@
         font-size: 15px;
         line-height: 8px;  
         padding-top: 5px;  
-    }     
+    }   
+    
+    #index-content{
+        margin-top: 20%;
+    }
 
 /*   FACILITIES 920  */
 
@@ -1106,7 +1110,7 @@
     }
 
     #index-content{
-        margin-top: 20%;
+        margin-top: 30%;
     }
 
 /*  FACILITIES  700  */
@@ -1185,7 +1189,7 @@
 /*   INDEX  620 */
 
     #index-content{
-        margin-top: 30%;
+        margin-top: 50%;
         /* height: 400px; */
     }
 
