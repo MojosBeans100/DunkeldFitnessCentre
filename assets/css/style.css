@@ -24,8 +24,6 @@
     .nav-menu {
         position: relative;
         font-family: "IBM Plex Sans", sans-serif;
-        width: 90%;
-        height: 35px;
         margin: auto;
         top: 20px;
         text-align: center;
@@ -35,6 +33,18 @@
         font-size: 25px;
         display: flex;
         justify-content: space-between;  
+        width: 85%;
+        color: white;
+        /* height: 60px; */
+    
+    }
+
+    .nav-background{
+        height: 80px;
+        border: solid red;
+        width: 100%;
+        top: 0;
+        opacity: 0.95;
     }
       
     .nav-menu a {
@@ -56,6 +66,10 @@
         position: relative;
     }
 
+    #nav-active-page {
+        text-decoration: underline;
+    }
+    
     p {
         font-size: 15px;
     }
@@ -138,11 +152,11 @@
         color: white;
     }
 
-    #index-nav a:hover{
-        color:rgb(158, 158, 158);
+    #index-nav-background{
+        background-color: rgb(46, 32, 24);
     }
 
-    .nav-menu #index-youre-here{
+    #index-nav a:hover{
         color:rgb(158, 158, 158);
     }
 
@@ -277,21 +291,17 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        opacity: 0.9; 
+        /* opacity: 0.9;  */
         height: 100%; 
     }
 
-    #facilities-nav {
-        color: white;
+    #facilities-nav-background{
+        background-color: rgb(34, 71, 27);
     }
 
-    #facilities-nav a:hover{
+    /* #facilities-nav a:hover{
         color:rgb(151, 151, 151);
-    }
-
-    .nav-menu #facilities-youre-here{
-        color:black;
-    }
+    } */
 
     .facilities-divs{
         background-color: white;
@@ -304,7 +314,7 @@
 
     #facilities-content{
         margin: auto;
-        width: 70%;
+        width: 50%;
         margin-top: 5%;
         flex: 1 0 auto;
     }
