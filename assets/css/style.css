@@ -148,17 +148,17 @@
         /* max-width: 100%; */
     }
 
-    #index-nav {
+    /* #index-nav {
         color: white;
-    }
+    } */
 
     #index-nav-background{
         background-color: rgb(46, 32, 24);
     }
 
-    #index-nav a:hover{
+    /* #index-nav a:hover{
         color:rgb(158, 158, 158);
-    }
+    } */
 
     #index-content{
         font-family: Roboto, sans-serif;
