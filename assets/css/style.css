@@ -384,7 +384,7 @@
         bottom: 0;
     }
 
-    .main-image#classes-image{
+    #classes-image{
         background-image: url('../images/classes.jpg');
         min-height: 100%;
     }
@@ -816,6 +816,10 @@
 /*   INDEX  1200 */
 /*   FACILITIES 1200  */
 
+    #facilities-content{
+        width: 70%;
+    }
+
     .list-box li{
     font-size: 20px; 
     line-height: 35px;
@@ -1171,14 +1175,14 @@
 /*   INDEX  620 */
 
     #index-content{
-        margin-top: 50%;
+        margin-top: 15%;
         /* height: 400px; */
     }
 
 /*   FACILITIES 620  */
 
     #facilities-content{   
-        margin-top: 40%;
+        margin-top: 10%;
     }
 
     .facilities-divs{
@@ -1202,7 +1206,7 @@
     }
 
     #classes-h2{
-        padding-top: 150px;
+        padding-top: 20px;
     }
 
     #pics-below{
@@ -1212,7 +1216,7 @@
 /*   MEMBERSHIP  620  */
 
     .membershipcontent{
-        top: 150px;
+        top: 10px;
         position: relative;
     }
 
@@ -1234,7 +1238,7 @@
     }
 
     #contact-content{
-        margin-top: 40%;
+        margin-top: 5%;
     }
 
     /*  END 620   */
@@ -1318,10 +1322,6 @@
     }
 
 /*   ABOUT US   520  */
-
-    #contact-content{
-        margin-top: 55%;
-    }
 
     #map{
         height: 40%;
@@ -1454,10 +1454,6 @@
     } 
 
 /*   FACILITIES 380  */
-
-    #facilities-content{
-        margin-top: 55%;
-    }
 
     .facilities-divs{
         height: 150px;
