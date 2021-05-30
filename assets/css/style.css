@@ -394,19 +394,6 @@
         background-color:rgb(77, 31, 31);
     }
 
-    /* #classes-nav a:hover{
-        color:rgb(110, 69, 69);
-    } */
-
-    /* .nav-menu #classes-youre-here{
-        color:black;
-    } */
-
-    /*  classes-footer called up in About Us  */
-    footer.membership-footer {
-        background-color: rgb(41, 41, 43);
-    }
-
     #classes-footer h2{
         font-size: 20px;
         color: white;
@@ -489,17 +476,14 @@
         height: 1000px;
     }
 
-    #membership-nav {
-        color: white;
+    #membership-nav-background{
+        background-color:rgb(41, 41, 43);
     }
-
-    #membership-nav a:hover{
-        color:rgb(25, 45, 61);
+    
+    
+    .membership-footer {
+        background-color: rgb(41, 41, 43);
     }
-
-    .nav-menu #membership-youre-here{
-        color:black;
-    }    
 
     .membership-h2 {
         letter-spacing: 3px;
