@@ -480,7 +480,6 @@
         background-color:rgb(41, 41, 43);
     }
     
-    
     .membership-footer {
         background-color: rgb(41, 41, 43);
     }
@@ -612,17 +611,17 @@
         min-height: 100vh;        
     }
 
-    #contact-nav {
-        color: rgb(53, 53, 53);
+    #contact-nav-background {
+        background-color: rgb(41, 41, 43);
     }
-
+/* 
     #contact-nav a:hover{
         color:rgb(184, 184, 184);
     }
 
     #contact-youre-here{
         color:rgb(167, 167, 167);
-    } 
+    }  */
 
     #contact-content{
         height: 600px;
@@ -730,7 +729,7 @@
     }
 
     #contact-footer{
-        background-color: rgb(41, 41, 43)
+        background-color: rgb(41, 41, 43);
     }
 
 /* ------------------------------------  MEDIA QUERIES  --------------------------------------- */   
