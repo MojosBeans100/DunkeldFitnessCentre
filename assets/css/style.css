@@ -41,7 +41,6 @@
 
     .nav-background{
         height: 80px;
-        border: solid red;
         width: 100%;
         top: 0;
         opacity: 0.95;
@@ -614,14 +613,6 @@
     #contact-nav-background {
         background-color: rgb(41, 41, 43);
     }
-/* 
-    #contact-nav a:hover{
-        color:rgb(184, 184, 184);
-    }
-
-    #contact-youre-here{
-        color:rgb(167, 167, 167);
-    }  */
 
     #contact-content{
         height: 600px;
@@ -629,10 +620,9 @@
         margin: 0 auto;
         border: solid 1px black;
         background-color: white;
-        margin-top: 6%;
+        margin-top: 5%;
         position: relative;
-        display: flex;
-        
+        display: flex; 
     }
 
     .about-spacer{
@@ -1167,6 +1157,10 @@
         display:block;
         margin: auto;
         width: 50%;
+    }
+
+    .nav-background{
+        height: 200px;
     }
 
     .nav-menu a{
