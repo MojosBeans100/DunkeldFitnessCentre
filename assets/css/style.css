@@ -644,14 +644,15 @@
 
     #contact-content h1{
         font-family: "IBM Plex Sans", sans-serif;
-        font-size: 1.5vw;
+        font-size: 25px;
         text-align: center;
         text-transform: uppercase;
     }
 
     #contact-content h2{
+        font-family: "IBM Plex Sans", sans-serif;
         color: black;
-        font-size: 1vw;
+        font-size: 16px;
     }
 
     #map{
@@ -785,7 +786,11 @@
 /*   FACILITIES   */
 /*   CLASSES   */
 /*   MEMBERSHIP   */
-/*   ABOUT US   */   
+/*   ABOUT US   */  
+
+    #contact-content{
+        margin-top: 2%;
+    }
     
 /*  1560 END    */
 }
@@ -849,7 +854,6 @@
     }
 
     #contact-content{
-        margin-top: 10%;
         width: 85%;
     }
 
@@ -952,17 +956,17 @@
     #contact-content {
         display: block;
         width: 80%;
-        height: 1100px;
+        height: 1200px;
         margin-bottom: 5%;
-        margin-top: 15%;
+        margin-top: 8%;
     }
 
     #contact-content h1{
-        font-size: 2vw;
+        font-size: 25px;
     }
 
     #contact-content h2{
-        font-size: 2vw;
+        font-size: 20px;
     }
 
     #map{
@@ -1164,7 +1168,7 @@
     }
 
     .nav-background{
-        height: 200px;
+        height: 210px;
     }
 
     .nav-menu a{
@@ -1229,6 +1233,10 @@
     }
 
 /*   ABOUT US   620  */
+
+    #contact-content h2{
+        font-size: 15px;
+    }
 
     #contact-nav-menu {
         display: block;
@@ -1424,21 +1432,21 @@
 
 /*   ABOUT US   420  */
 
-    #telephone-email{
-        height: 50%;
+    #contact-content{
+        height: 900px;
     }
 
-    #contact-info{
-        /* height: 300px; */
-        top: 250px;
+    #telephone-email{
+        height: 70%;
     }
 
     #map{
-        height: 40%;
+        height: 30%;
+        margin-top: 5%;
     }
 
     #google-map{
-        height: 60%;
+        height: 80%;
     }   
    
 /*  END 420  */
@@ -1478,7 +1486,7 @@
 /*   ABOUT US   380  */    
     
     #contact-content{
-        margin-top: 60%;
+        margin-top: 10%;
     }
 
     #contact-div h3 {
@@ -1502,7 +1510,7 @@
     }
 
     #map{
-        height: 50%;
+        height: 45%;
     }
 
         
