@@ -281,7 +281,7 @@ Finally the code was passed through [Am I Responsive](http://ami.responsivedesig
 ### As a new user:
 
 * I would like to find out if this gym is a suitable location for me to attend everyday on my way home from work
-    > The location if the gym is clear from the Homepage which names the town in the title, there is a footer on each page which displays the address, and the About Us page displays this information as well as a Google Map of the gym location.
+    > The location of the gym is clear from the Homepage which names the town in the large centered title, there is a footer on each page which displays the address, and the About Us page displays this information as well as a Google Map of the gym location.
 
 * I would like to find out what classes they have and how frequently they run
     > From the Classes page, I can cleary see that classes run 3 days per week, and that there is a choice of 4 classes.
@@ -330,6 +330,17 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 * The live link can be found here  - LATEST LINK
+
+
+To run localy:
+* Log in to GitHub and click on repository to download LATEST LINK HERE
+* select `Code` and click Download the ZIP file.
+* after download you can extract the file and use it in your local environment 
+
+Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+this repository ([MP1](https://github.com/marcin-kli/MP1)) into your github account.
+
 
 # Credits
 ## Content

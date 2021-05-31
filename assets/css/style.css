@@ -141,7 +141,7 @@
     }
 
     #index-nav-background{
-        background-color: rgb(46, 32, 24);
+        background-color: rgb(0, 0, 0);
     }
 
     #index-content{
@@ -263,7 +263,7 @@
     }
 
     #facilities-nav-background{
-        background-color: rgb(34, 71, 27);
+        background-color: black;
     }
 
     .facilities-divs{
@@ -372,7 +372,7 @@
     }
 
     #classes-nav-background {
-        background-color:rgb(77, 31, 31);
+        background-color:black;
     }
 
     #classes-footer h2{
@@ -452,13 +452,17 @@
 
 /*  ------------------------------------  MEMBERSHIP  -------------------------------------------   */
 
+    #membership-body{
+        background-color: rgb(158, 158, 158);
+    }
+
     #membership-image{
         background-image: url('../images/membership.jpeg');
         height: 1000px;
     }
 
     #membership-nav-background{
-        background-color:rgb(41, 41, 43);
+        background-color:black;
     }
     
     .membership-footer {
@@ -593,7 +597,7 @@
     }
 
     #contact-nav-background {
-        background-color: rgb(41, 41, 43);
+        background-color: black;
     }
 
     #contact-content{
@@ -1139,12 +1143,9 @@
     .membership-footer{
         display: block;
         width: 100%;
-        /* margin: auto; */
         height: 250px;
         bottom: 0;
         position: relative;
-        padding: 0;
-        /* border: solid yellow; */
     }
     
 /*   ABOUT US  700  */ 
@@ -1449,7 +1450,6 @@
 
     #map{
         height: 30%;
-        margin-top: %;
     }
 
     #google-map{
