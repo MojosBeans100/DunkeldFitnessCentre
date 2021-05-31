@@ -75,7 +75,7 @@ The website owner's goals are to present a modern, sophisticated and stylish fit
 
 * I would like to book onto one of the upcoming classes this week
 * I want to get in contact about a problem with my membership
-* I want to find their social media links so I can join their instagram stories
+* I want to find their social media links so I can join their Instagram stories
 
 ## Structure of the website
 
@@ -84,6 +84,8 @@ The structure of the website is straightforward and intuitive.  There are 5 main
 The website is designed to be responsive on all devices; viewing the website on different screen sizes should not affect the user experience.  There is some animation on the front page and hover effects on some links to increase user interaction. 
 
 ## Wireframes
+
+[Wireframes](https://wireframe.cc/) was used to visualise website ideas and maintain an idea of layout and styling.  See all pages concepts below.
 
 ### Homepage Design
 ![Homepage Design](assets/images/WireframesHomepage.JPG)
@@ -108,13 +110,13 @@ The website largely uses IBM Plex Sans, with some headers as Roboto, and sans-se
 
 ### Colours
 
-The colour scheme for each page is kept consistent and chosen to complement the background image, but does vary throughout the website to keep the user engaged. Because of this variation, other features such as the navigation bar and footer are kept consistent, to ensure the user they are on the same website.  The main colours used are:
+The colour scheme for each page is kept consistent and chosen to complement the background image, but does vary throughout the website to keep the user engaged. Because of this variation, other features such as the navigation bar are kept consistent, to ensure the user they are on the same website.  The main colours used are:
 
-* Homepage:  white and rgb(46, 32, 24) 
-* Facilities: rgb(34, 71, 27) 
-* Classes: rgb(77, 31, 3), rgb(41, 41, 43), rgb(158, 158, 158)
-* Membership: rgb(56, 56, 56), rgb(158, 158, 158), rgb(58, 57, 57)
-* About Us: rgb(65, 70, 94), rgb(224, 216, 210)
+* Homepage: dark, naturals browns and white text:  white and rgb(46, 32, 24) 
+* Facilities: light creams and greens: rgb(34, 71, 27) 
+* Classes: pastel, natural pinks and creams: rgb(77, 31, 3), rgb(41, 41, 43), rgb(158, 158, 158)
+* Membership: steely blues, greys and black: rgb(56, 56, 56), rgb(158, 158, 158), rgb(58, 57, 57)
+* About Us: black and white, some grey: rgb(65, 70, 94), rgb(224, 216, 210)
 
 ### Images
 
@@ -133,7 +135,7 @@ The website has the following features:
 
 The navigation is fixed to the top of the page, allowing the user to return to it at any time to navigate to another page.  All pages are displayed in the navigation bar.  
 
-The active page has the page title a different colour to remind the user where they are within the website, and there is a hover function to allow the user to see when the mouse point is above the hyperlink.  The nav bar is responsive and will change to a column layout at a certain screen width. 
+The active page has the page title underlined to remind the user where they are within the website, and there is a hover function to allow the user to see when the mouse point is above the hyperlink.  The nav bar is responsive and will change to a column layout at a certain screen width. 
 
 Lastly, for emphasis and to remind the user how to return to the front page, the Homepage title sits furthest to the left, as in first in the navigation bar, and has the branded logo for the gym. 
 
@@ -176,16 +178,17 @@ The timetable on the Classes page is basic and kept to only 4 columns.  It clear
 
 Importantly, users need to know how to book themselves onto the classes, so the top header on this page explains that the only way to book is over the phone.  The footer on this page is kept fixed on the bottom of the screen to keep the phone number in plain site for the user, so they are not required to navigate to another page to find the number. 
 
+### Gallery
+
 ![Classes Gallery](assets/images/readmeGallery.jpg)
 
-### Gallery
 The gallery is an attractive feature to display what the classes run at the gym are like, and to give the user an idea of what to expect if they joined one. It is a masonry layout to give flexibility to additional images as they are added, and creates an interesting user experience.
 
 ## Membership
 
 ### Contract and Pricing Info
 
-There is another basic list of incentives to join this gym and pricing info. 
+There is another list of incentives to join this gym and pricing info. 
 
 ### Form
 
@@ -256,6 +259,10 @@ The code was passed through the official HTML *W3C validator* with no errors ret
 ### CSS Testing
 The code was passed through the official CSS *Jigsaw validator* with no errors returned. 
 
+There were 4 warnings about background colour matching border color, but as this did not cause any major issues within the code, and was a deliberate styling, the issues were overlooked.
+
+![CSS Warnings](assets/images/CSSWarning.jpg)
+
 ## Compatibility testing
 
 The site was tested on all browser sizes during development, to ensure the website maintained a structured layout for all screen sizes.  
@@ -270,7 +277,7 @@ Finally the code was passed through [Am I Responsive](http://ami.responsivedesig
     > There is a large high-resolution picture of one of the gym rooms on the Homepage, which gives a lasting first impression of the ambiance and vibe of the gym
 
 * I would like to draw in new members by offering a competitive membership rate and attractive contract terms
-    > The Homepage describes a low competitive contract rate, and the membership page reinstates this by listing the contract terms and specific pricing
+    > The Homepage describes a low competitive contract rate, and the membership page reinstates this by listing the contract terms and specific pricing.  The user has to navigate to another page to find the specific price, taking in more information about the gym. 
 
 * I would like users to know exactly what facilities they will have access to if they visit the gym
     > The Facilities page clearly lists all gym spaces and equipment
@@ -284,7 +291,7 @@ Finally the code was passed through [Am I Responsive](http://ami.responsivedesig
     > The location of the gym is clear from the Homepage which names the town in the large centered title, there is a footer on each page which displays the address, and the About Us page displays this information as well as a Google Map of the gym location.
 
 * I would like to find out what classes they have and how frequently they run
-    > From the Classes page, I can cleary see that classes run 3 days per week, and that there is a choice of 4 classes.
+    > From the Classes page, I can clearly see that classes run 3 days per week, and that there is a choice of 4 classes.
 
 * I would like to know how much it would cost for a membership and any terms related to my contract, and join the gym
     > On the Membership page, I can see there are only 2 options for a membership, and there is a list of contract terms. Beneath this is a basic form I can fill in to request a membership.
@@ -300,7 +307,7 @@ Finally the code was passed through [Am I Responsive](http://ami.responsivedesig
 * I want to get in contact about a problem with my membership
     > All contact information is clear in the footer and About Us page. 
 
-* I want to find their social media links so I can join their instagram stories
+* I want to find their social media links so I can join their Instagram stories
     > On the About Us page, there is a link to the gym's social media pages, which open in a separate tab.
 
 ## Limitations of Project
@@ -322,11 +329,15 @@ The terms and conditions link on the membership form does not link to a document
 
 The footer caused problems on some pages staying at the bottom of the page.  Some pages are only 1 screen size - for example Homepage and About Us.  Whereas the others have more content and therefore require scrolling.  In larger screen sizes it was desirable for the footer to remain fixed in position, but when reduced to smaller sizes and the footer changes to a taller column layout, it is preferred that the footer is hidden at the bottom and requires scrolling, so as not to take up the whole page.  
 
-This idea in practice took some fiddling, and ultimately on a few pages, a fixed height "spacer" div was placed so keep the footer where it needed to be.  
+This idea in practice took some fiddling, and ultimately on a few pages, a fixed height "spacer" div was placed to keep the footer where it needed to be.  
 
 ### Gallery Layout
 
 The gallery layout was adjusted for media queries, however since the position of images changed during browser resizing, there were gaps of varied heights revealing the white background of the gallery.  While in some screen sizes this could look tidier, it may add a sense of the 'social media' aspect of the gallery and imply that gaps are there because images are regularly uploaded to the site as they are taken.  Therefore this 'bug' is left unfixed. 
+
+### CSS Warning
+
+There were 4 CSS warnings, outlined in section [CSS Testing](#css-testing).
 
 # Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
