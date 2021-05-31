@@ -133,7 +133,7 @@
 /*  ------------------------------------ INDEX  -----------------------------------------  */
 
     #index-image{
-        background-image: url('../images/main-image.jpg');
+        background-image: url('../images/index-image.jpg');
         height:100%;
     }
 
@@ -147,7 +147,7 @@
     #index-animation-div{
         width: 40%;
         margin: auto;
-        background-color: rgb(46, 32, 24);
+        background-color: rgb(36, 36, 36);
         display: flex;
     }
 
@@ -172,14 +172,10 @@
 
     #index-title{
         font-size: 5vw;
-        color: rgb(245, 245, 241);
+        color: rgb(36, 36, 36);
         text-align: center;
-        letter-spacing: 5px;
+        letter-spacing: 6px;
         text-transform: none;
-        text-shadow:    -1px -1px 0 rgb(46, 32, 24),
-		                 1px -1px 0 rgb(46, 32, 24),
-		                 -1px 1px 0 rgb(46, 32, 24),
-		                 1px 1px 0 rgb(46, 32, 24);
     } 
 
     #index-footer h2{
@@ -194,7 +190,7 @@
     }
 
     #index-footer {
-        background-color: rgb(46, 32, 24);
+        background-color: rgb(36, 36, 36);
         position:fixed;
         bottom: 0;
         padding-bottom: 0;
@@ -1178,7 +1174,7 @@
     #contact-content h2{
         font-size: 15px;
     }
-    
+
     #contact-content{
         margin-top: 5%;
     }
