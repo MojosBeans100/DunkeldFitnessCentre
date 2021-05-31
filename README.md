@@ -351,6 +351,8 @@ All website content was written by the author.
 
 The ReadMe format was inspired by the template from Code Institute [Code Institute ReadMe](https://github.com/Code-Institute-Solutions/readme-template) as well as [Annie's Portfolio Website](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md).
 
+The gallery layout on the Classes page was inspired by that of the Love Running Project from Code Institute [Love Running Gallery]()
+
 Some other gym and fitness websites which inspired the author for content and style:
 * [Dunkeld House Hotel](https://www.dunkeldhousehotel.co.uk/)
 * [Pure Gym](https://www.puregym.com/)
@@ -363,6 +365,7 @@ Credits to:
 
 * Caresse Resort and Spa [Main Image](https://www.marriott.com/hotels/hotel-information/fitness-center/details/bjvlc-caresse-a-luxury-collection-resort-and-spa-bodrum/5982778/)
 * @goumbik
+* @monstera
 * @victorfreitas
 * @cottonbro
 * @elly-fairytale

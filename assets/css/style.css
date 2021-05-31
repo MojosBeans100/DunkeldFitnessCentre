@@ -35,6 +35,7 @@
         width: 100%;
         top: 0;
         opacity: 0.95;
+        background-color: black;
     }
       
     .nav-menu a {
@@ -138,10 +139,6 @@
         background-image: url('../images/main-image.jpg');
         height:100%;
         /* max-width: 100%; */
-    }
-
-    #index-nav-background{
-        background-color: rgb(0, 0, 0);
     }
 
     #index-content{
@@ -258,12 +255,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        /* opacity: 0.9;  */
         height: 100%; 
-    }
-
-    #facilities-nav-background{
-        background-color: black;
     }
 
     .facilities-divs{
@@ -371,10 +363,6 @@
         min-height: 100%;
     }
 
-    #classes-nav-background {
-        background-color:black;
-    }
-
     #classes-footer h2{
         font-size: 20px;
         color: white;
@@ -408,7 +396,6 @@
         margin: auto;
         margin-top: 50px;
         padding-bottom: 100px;
-        /* margin-bottom: 400px; */
     }
     
     #gallery > img {
@@ -461,10 +448,6 @@
         height: 1000px;
     }
 
-    #membership-nav-background{
-        background-color:black;
-    }
-    
     .membership-footer {
         background-color: rgb(41, 41, 43);
     }
@@ -516,7 +499,6 @@
     #form-div{
         width: 65%;
         height: 900px;
-        /* background-color: white; */
         margin: 0 auto;
         padding-top: 30px;  
     }
@@ -528,7 +510,6 @@
         width: 70%;
         background-color:white;
         color: rgb(0, 0, 0);
-        /* line-height: 60px; */
         border: solid black 1px;
     }
 
@@ -594,10 +575,6 @@
     #contact-image{
         background-image: url('../images/contactbackground.jpg');
         min-height: 100vh;        
-    }
-
-    #contact-nav-background {
-        background-color: black;
     }
 
     #contact-content{
