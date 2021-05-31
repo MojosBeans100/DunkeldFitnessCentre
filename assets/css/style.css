@@ -63,10 +63,8 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        /* opacity: 0.9;   */
     } 
     
-    /* only called up in footers */
     p {
         font-size: 15px;
     }
@@ -103,7 +101,6 @@
         margin: 0;
         display: flex;
         justify-content: space-between;
-    
         font-family: "IBM Plex Sans", sans-serif;
         letter-spacing: 1.5px;
         text-align: center;
@@ -138,7 +135,6 @@
     #index-image{
         background-image: url('../images/main-image.jpg');
         height:100%;
-        /* max-width: 100%; */
     }
 
     #index-content{
@@ -175,7 +171,6 @@
     }
 
     #index-title{
-        /* background-color: black; */
         font-size: 5vw;
         color: rgb(245, 245, 241);
         text-align: center;
@@ -277,7 +272,6 @@
     .left-div{
         width: 100%;
         float: left;
-        /* border: solid purple; */
         display: flex;
         align-items: center;
     }
@@ -285,7 +279,6 @@
     .right-div{
         width: 100%;
         float: right;
-        /* border: solid crimson; */
         display: flex;
         flex-direction: column; 
     }
@@ -327,8 +320,6 @@
     
     .not-header-div{
         height: 80%;
-        /* border: solid orange; */
-        /* align-items: vertical; */
         display: flex;
     }
       
@@ -385,7 +376,6 @@
     }
 
     #gallery {
-        /* top: 50%; */
         position: relative;
         background-color: white;
         clear: both;
@@ -486,7 +476,6 @@
         height: 1000px;
         width: 100%;
         background-color:rgb(158, 158, 158); 
-        /* opacity: 0.5; */
         margin-bottom: 0;
         padding-bottom: 0;
     }
@@ -542,8 +531,12 @@
         margin: auto;
     }
     
-    #t-and-c {
+    .t-and-c {
         color: green;
+    }
+
+    #membership-tc{
+        font-size: 15px;
     }
 
     #underline{
@@ -574,7 +567,7 @@
 
     #contact-image{
         background-image: url('../images/contactbackground.jpg');
-        min-height: 100vh;        
+        min-height: 100vh;         
     }
 
     #contact-content{
@@ -583,13 +576,13 @@
         margin: 0 auto;
         border: solid 1px black;
         background-color: white;
-        margin-top: 5%;
+        margin-top: 2%;
         position: relative;
         display: flex; 
     }
 
-    .about-spacer{
-        height: 50px;
+    #contact-spacer-div{
+        height: 150px;
     }
 
     #contact-footer {
@@ -633,7 +626,7 @@
         height: 80%;
         margin: auto;
         position: relative;
-        border: 0;
+        border: solid black 1px;
     }
 
     #telephone-email{
@@ -718,10 +711,6 @@
 
     #classes-h2{
         padding-top: 50px;
-    }
-
-    #pics-below{
-        padding: 80px 0;
     }
 
 /*   MEMBERSHIP  1640  */
@@ -816,14 +805,6 @@
     }
 
 /*   ABOUT US   1200  */
-
-    #contact-nav-menu a {
-        font-size: 20px; 
-    }
-
-    #contact-nav-menu #yourehere{
-        font-size: 20px; 
-    }
 
     #contact-content{
         width: 85%;
@@ -947,7 +928,7 @@
     }
 
     #contact-content h2{
-        font-size: 20px;
+        font-size: 22px;
     }
 
     #map{
@@ -966,7 +947,6 @@
     }
 
     #contact-footer{
-        
         position: relative;
     }
 
@@ -977,6 +957,10 @@
     #contact-footer h2{
         font-size: 15px;
     }
+
+    #contact-spacer-div{
+        height: 50px;
+    }
   
 /*  920 END   */
 }
@@ -986,10 +970,6 @@
 /*   OVERALL  800 */  
 
     .nav-menu a{
-        font-size: 15px; 
-    }
-
-    .nav-menu #yourehere {
         font-size: 15px; 
     }
 
@@ -1026,16 +1006,7 @@
         font-size: 18px;  
     }
 
-/*   ABOUT US   800  */
-  
-    #contact-nav-menu a {
-        font-size: 15px; 
-    }
-    
-    #contact-nav-menu #yourehere{
-        font-size: 15px; 
-    }
-  
+/*   ABOUT US   800  */  
 /*   800 END   */
 }
 
@@ -1071,7 +1042,6 @@
 
     #index-footer{
         position: relative;
-        /* margin-top: 200px; */
         bottom: 0;
         padding: 0;
         margin: 0;
@@ -1103,7 +1073,7 @@
 /*  MEMBERSHIP  700  */
 
     #second-membership-section{
-        height: 850px;   
+        height: 900px;   
     }
         
     #form-div{
@@ -1156,7 +1126,6 @@
 
     #index-content{
         margin-top: 15%;
-        /* height: 400px; */
     }
 
 /*   FACILITIES 620  */
@@ -1168,10 +1137,6 @@
     .facilities-divs{
         margin-bottom: 40px;
     }
-
-    /* .list-box li{
-        font-size: 12px;
-    } */
 
     .header-div h2{
         font-size: 20px;
@@ -1191,10 +1156,6 @@
 
     #classes-h2{
         padding-top: 20px;
-    }
-
-    #pics-below{
-        padding: 50px 0;
     }
 
 /*   MEMBERSHIP  620  */
@@ -1217,14 +1178,7 @@
     #contact-content h2{
         font-size: 15px;
     }
-
-    #contact-nav-menu {
-        display: block;
-        margin: auto;
-        width: 50%;
-        left: 18%;
-    }
-
+    
     #contact-content{
         margin-top: 5%;
     }

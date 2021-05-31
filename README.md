@@ -3,7 +3,7 @@ First Milestone Project: a site to show facilities of a fictional gym
 
 ![Mock Up](assets/images/readmeResponsive.JPG)
 
-The website details information about a gym which offers all standard facilities of a gym, workout classes, and a monthly or annual membership.  
+The website details information about a fitness centre which offers all standard facilities of a gym, workout classes, and a monthly or annual membership.  
 
 # Table of Contents
 
@@ -216,7 +216,6 @@ The map gives the user a location without having to copy the address and open Go
 * Information about classes
 * FAQs
 * Contact form
-* Automatically updated sidebar for social media links
 
 [Back to Table of contents](#table-of-contents)
 
@@ -277,13 +276,13 @@ Finally the code was passed through [Am I Responsive](http://ami.responsivedesig
     > There is a large high-resolution picture of one of the gym rooms on the Homepage, which gives a lasting first impression of the ambiance and vibe of the gym
 
 * I would like to draw in new members by offering a competitive membership rate and attractive contract terms
-    > The Homepage describes a low competitive contract rate, and the membership page reinstates this by listing the contract terms and specific pricing.  The user has to navigate to another page to find the specific price, taking in more information about the gym. 
+    > The Homepage describes a low competitive contract rate, and the membership page reinstates this by listing the contract terms and specific pricing.  The user has to navigate to another page to find the specific price, taking in more information about the gym 
 
 * I would like users to know exactly what facilities they will have access to if they visit the gym
     > The Facilities page clearly lists all gym spaces and equipment
 
 * I would like users to feel like they can easily get in contact about any queries
-    > There is contact information in the footer, which is displayed on each page, and there is a separate contact page which reiterates all this information. 
+    > There is contact information in the footer, which is displayed on each page, and there is a separate contact page which reiterates all this information
 
 ### As a new user:
 
@@ -313,7 +312,7 @@ Finally the code was passed through [Am I Responsive](http://ami.responsivedesig
 ## Limitations of Project
 
 ### Membership Form
-The membership form does not do anything or lead to anywhere, aside from clearing itself of info after submission. 
+The membership form does not do anything or lead to anywhere, aside from clearing itself of information after submission. 
 
 ### Social Media Links
 The social media links simply link to the general site eg Facebook, as opposed to a specific page. 
@@ -344,16 +343,17 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-* The live link can be found here  - LATEST LINK
+* The live link can be found here 
+ > [Dunkeld Fitness Centre](https://mojosbeans100.github.io/DunkeldFitnessCentre/.)
 
-To run localy:
-* Log in to GitHub and click on repository to download LATEST LINK HERE
+To run locally:
+* Log in to GitHub and click on repository to download [Dunkeld Fitness Centre](https://github.com/MojosBeans100/DunkeldFitnessCentre)
 * select `Code` and click Download the ZIP file.
 * after download you can extract the file and use it in your local environment 
 
 Alternatively you can [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
-this repository ([MP1](https://github.com/marcin-kli/MP1)) into your github account.
+this repository ([Dunkeld Fitness Centre](https://github.com/MojosBeans100/DunkeldFitnessCentre)) into your github account.
 
 
 # Credits
@@ -362,7 +362,7 @@ All website content was written by the author.
 
 The ReadMe format was inspired by the template from Code Institute [Code Institute ReadMe](https://github.com/Code-Institute-Solutions/readme-template) as well as [Annie's Portfolio Website](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md).
 
-The gallery layout on the Classes page was inspired by that of the Love Running Project from Code Institute [Love Running Gallery]()
+The gallery layout on the Classes page was inspired by that of the Love Running Project from Code Institute [Love Running Gallery](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/06b2421978a4470d844b06c7bf2c50a2/).
 
 Some other gym and fitness websites which inspired the author for content and style:
 * [Dunkeld House Hotel](https://www.dunkeldhousehotel.co.uk/)
