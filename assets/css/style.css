@@ -12,13 +12,6 @@
         padding: 0;
         margin: 0;
         min-height: 100vh; 
-      }
-
-    .wrapper{
-        position:relative;
-        margin:0;
-        padding:0;
-        min-height: 100%; 
     }
 
     .nav-menu {
@@ -35,8 +28,6 @@
         justify-content: space-between;  
         width: 85%;
         color: white;
-        /* height: 60px; */
-    
     }
 
     .nav-background{
@@ -50,14 +41,13 @@
         text-decoration: none;
     }
     
-    /* .nav-menu #yourehere {
-        color: rgb(70, 70, 70);
-        font-size:28px;
-    } */
-    
     .nav-menu a:hover {
         text-decoration: none;
     } 
+
+    #nav-active-page {
+        text-decoration: underline;
+    }
 
     .content{
         height: 100%;
@@ -65,10 +55,17 @@
         position: relative;
     }
 
-    #nav-active-page {
-        text-decoration: underline;
-    }
+    .main-image {
+        width:100%;
+        margin: 0 auto;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* opacity: 0.9;   */
+    } 
     
+    /* only called up in footers */
     p {
         font-size: 15px;
     }
@@ -97,10 +94,6 @@
         text-align:center;
     }
 
-    hr {
-        width: 80%;
-    }    
-
     footer {       
         flex-shrink: 0;
         width: 100%;
@@ -117,7 +110,7 @@
         font-size: 15px;
         line-height: 5px;
         color: white;
-        }
+    }
        
     .footer-1{
         float: left;
@@ -154,16 +147,9 @@
     #index-content{
         font-family: Roboto, sans-serif;
         margin: auto;
-        margin-top: 10%;
+        margin-top: 2%;
         position: relative;   
-    }
-
-    #index-intro-div{
-        width: 80%;
-        height: 20%;
-        background-color: rgb(46, 32, 24);
-        margin: auto;
-
+        border: solid purple;
     }
 
     #index-animation-div{
@@ -214,16 +200,6 @@
     .spacer{
         height: 200px;
     }
-
-    .main-image {
-        width:100%;
-        margin: 0 auto;
-        padding: 0;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        /* opacity: 0.9;   */
-    } 
 
     #index-footer {
         background-color: rgb(46, 32, 24);
@@ -335,7 +311,7 @@
     .list-box li{
         font-family: "IBM Plex Sans", sans-serif;
         list-style-type: none;
-        font-size: 25px; 
+        font-size: 23px; 
         line-height: 35px;   
     }
     
@@ -377,6 +353,13 @@
     }      
 
 /*  ---------------------------------  CLASSES  -----------------------------------------  */
+
+    .classes-content{
+        position:relative;
+        margin:0;
+        padding:0;
+        min-height: 100%; 
+    }
 
     #classes-footer{
         background-color: rgb(77, 31, 31);
@@ -654,6 +637,10 @@
         color: black;
         font-size: 16px;
     }
+
+    hr {
+        width: 80%;
+    }    
 
     #map{
         width: 50%;
@@ -1442,7 +1429,7 @@
 
     #map{
         height: 30%;
-        margin-top: 5%;
+        margin-top: %;
     }
 
     #google-map{
