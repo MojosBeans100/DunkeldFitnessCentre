@@ -1445,11 +1445,12 @@
     }
 
     #telephone-email{
-        height: 70%;
+        height: 60%;
     }
 
     #map{
-        height: 30%;
+        height: 40%;
+        margin-top: 0;
     }
 
     #google-map{
@@ -1514,6 +1515,7 @@
 
     #map{
         height: 45%;
+        margin-top: 10%;
     }
         
 /*   END 380     */

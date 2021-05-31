@@ -324,13 +324,16 @@ The footer caused problems on some pages staying at the bottom of the page.  Som
 
 This idea in practice took some fiddling, and ultimately on a few pages, a fixed height "spacer" div was placed so keep the footer where it needed to be.  
 
+### Gallery Layout
+
+The gallery layout was adjusted for media queries, however since the position of images changed during browser resizing, there were gaps of varied heights revealing the white background of the gallery.  While in some screen sizes this could look tidier, it may add a sense of the 'social media' aspect of the gallery and imply that gaps are there because images are regularly uploaded to the site as they are taken.  Therefore this 'bug' is left unfixed. 
+
 # Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 * The live link can be found here  - LATEST LINK
-
 
 To run localy:
 * Log in to GitHub and click on repository to download LATEST LINK HERE
