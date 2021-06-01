@@ -168,11 +168,11 @@
         color: white;
         font-size: 1.8vw;
         list-style-type: none;
-        line-height: 5vh;
+        line-height: 40px;
     }
 
     #index-title{
-        font-size: 5vw;
+        font-size: 70px;
         color: black;
         text-align: center;
         letter-spacing: 6px;
@@ -854,6 +854,10 @@
 
 /*   INDEX  920 */
 
+    #index-title{
+        font-size: 55px;
+    }
+
     #index-footer h2{
         font-size: 15px;
         line-height: 8px;  
@@ -1189,6 +1193,10 @@
 /*  OVERALL  520   */
 /*   INDEX  520 */
 
+    #index-title{
+        font-size: 40px;
+    }
+
     #index-animation-div{
         width: 70%;
         margin-top: 10%;
@@ -1196,7 +1204,7 @@
 
     #index-animation-div li{
         font-size: 3vw;
-        line-height: 3vh;
+        line-height: 30px;
     }
 
     #index-content{
@@ -1300,7 +1308,7 @@
 /*   INDEX  420 */
 
     #index-title{
-        font-size: 7vw;
+        font-size: 30px;
     }
 
     #index-animation-div{
@@ -1309,7 +1317,6 @@
 
     #index-animation-div li{
         font-size: 4vw;
-        line-height: 3vh;
         text-indent: -30px;
     }
 
