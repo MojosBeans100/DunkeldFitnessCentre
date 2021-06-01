@@ -148,6 +148,7 @@
         width: 40%;
         margin: auto;
         background-color: rgb(36, 36, 36);
+        background-color: black;
         display: flex;
     }
 
@@ -172,10 +173,11 @@
 
     #index-title{
         font-size: 5vw;
-        color: rgb(36, 36, 36);
+        color: black;
         text-align: center;
         letter-spacing: 6px;
         text-transform: none;
+        text-shadow:1px 1px rgb(58, 65, 70);
     } 
 
     #index-footer h2{
@@ -190,7 +192,7 @@
     }
 
     #index-footer {
-        background-color: rgb(36, 36, 36);
+        background-color: black;
         position:fixed;
         bottom: 0;
         padding-bottom: 0;
