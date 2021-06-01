@@ -112,7 +112,7 @@ The website largely uses IBM Plex Sans, with some headers as Roboto, and sans-se
 
 The colour scheme for each page is kept consistent and chosen to complement the background image, but does vary throughout the website to keep the user engaged. Because of this variation, other features such as the navigation bar are kept consistent, to ensure the user they are on the same website.  The main colours used are:
 
-* Homepage: dark, naturals browns and white text:  white and rgb(46, 32, 24) 
+* Homepage: black, greys, whites 
 * Facilities: light creams and greens: rgb(34, 71, 27) 
 * Classes: pastel, natural pinks and creams: rgb(77, 31, 3), rgb(41, 41, 43), rgb(158, 158, 158)
 * Membership: steely blues, greys and black: rgb(56, 56, 56), rgb(158, 158, 158), rgb(58, 57, 57)
@@ -158,7 +158,7 @@ There is a high resolution background image from Pexels on each page.  The navig
 ## Homepage
 
 ### Incentives List
-The incentive list on the front page draws attention to four main points which separate this gym from others.   The list is dynamic, with check-marks appearing next to each bullet point in a short animation to enhance user experience. 
+The incentive list (see above picture) on the front page draws attention to four main points which separate this gym from others.   The list is dynamic, with check-marks appearing next to each bullet point in a short animation to enhance user experience. 
 
 ## Facilities
 
