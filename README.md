@@ -374,7 +374,7 @@ Most media images were sourced from [Pexels](https://www.pexels.com/) website.
 
 Credits to: 
 
-* Caresse Resort and Spa [Main Image](https://www.marriott.com/hotels/hotel-information/fitness-center/details/bjvlc-caresse-a-luxury-collection-resort-and-spa-bodrum/5982778/)
+* Marriot Gym [Main Image](https://www.marriott.com.au/hotels/hotel-information/fitness-center/hydlk-itc-kohenur-a-luxury-collection-hotel-hyderabad/)
 * @goumbik
 * @monstera
 * @victorfreitas

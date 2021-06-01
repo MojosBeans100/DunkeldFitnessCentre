@@ -401,10 +401,6 @@
         letter-spacing: 1px;       
     }
       
-    /* .blank-row{
-        height: 20px;
-    } */
-      
     .activity{
        text-align: center;
     }
@@ -419,7 +415,7 @@
     
     #table-div{
         width: 60% ;
-        height: 400px;
+        height: 350px;
         background-color: white;
         margin: auto;
         box-shadow: 0 0 10px 10px white;
@@ -822,10 +818,6 @@
     }
 
 /*   CLASSES  1050  */
-
-    #table-div{
-        height: 450px;
-    }
 
     #gallery {
         column-count: 3;
